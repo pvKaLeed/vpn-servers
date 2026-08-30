@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T10:29:57.906606Z",
+  "generatedAt": "2026-08-30T10:30:32.628623Z",
   "source": {
     "name": "VPN Gate",
     "sources": [
@@ -30,66 +30,66 @@
     "username": "vpn",
     "password": "vpn"
   },
-  "count": 101,
+  "count": 94,
   "servers": [
     {
-      "id": "603cd71cb2b59ece",
-      "name": "public-vpn-108",
-      "hostname": "public-vpn-108",
-      "ip": "219.100.37.98",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 3034924,
-      "pingMs": 15,
-      "speedMbps": 747.657,
-      "sessions": 98,
-      "uptimeMinutes": 8362472472,
-      "totalUsers": 14828838,
-      "totalTrafficBytes": 931414801483139,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.98",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0001-JP-public-vpn-108.ovpn",
-          "host": "219.100.37.98",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "56729b5935c5c21b",
-      "name": "public-vpn-202",
-      "hostname": "public-vpn-202",
-      "ip": "219.100.37.197",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2856475,
-      "pingMs": 12,
-      "speedMbps": 626.338,
+      "id": "ffe289f9bf79bd16",
+      "name": "vpn100383739",
+      "hostname": "vpn100383739",
+      "ip": "128.211.249.131",
+      "country": "United States",
+      "countryCode": "US",
+      "score": 3636944,
+      "pingMs": 6,
+      "speedMbps": 5.873,
       "sessions": 84,
-      "uptimeMinutes": 8362441400,
-      "totalUsers": 15475264,
-      "totalTrafficBytes": 871055730083705,
+      "uptimeMinutes": 765959637,
+      "totalUsers": 1040227,
+      "totalTrafficBytes": 200372287132964,
+      "operator": "DESKTOP-997V69D's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "128.211.249.131",
+          "port": 1195,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0001-US-vpn100383739.ovpn",
+          "host": "128.211.249.131",
+          "port": 1195,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "e6ae6abaf0e8b8d9",
+      "name": "public-vpn-255",
+      "hostname": "public-vpn-255",
+      "ip": "219.100.37.224",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 3004251,
+      "pingMs": 14,
+      "speedMbps": 1035.15,
+      "sessions": 149,
+      "uptimeMinutes": 8362811798,
+      "totalUsers": 25835706,
+      "totalTrafficBytes": 1541721443749725,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.197",
+          "host": "219.100.37.224",
           "port": 443,
           "protocol": null
         }
@@ -99,34 +99,34 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0002-JP-public-vpn-202.ovpn",
-          "host": "219.100.37.197",
+          "file": "ovpn/0002-JP-public-vpn-255.ovpn",
+          "host": "219.100.37.224",
           "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "4d23d585d76ae139",
-      "name": "public-vpn-98",
-      "hostname": "public-vpn-98",
-      "ip": "219.100.37.31",
+      "id": "fa4c5e25c276d57e",
+      "name": "public-vpn-74",
+      "hostname": "public-vpn-74",
+      "ip": "219.100.37.26",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 2841931,
-      "pingMs": 19,
-      "speedMbps": 321.444,
-      "sessions": 95,
-      "uptimeMinutes": 8362437478,
-      "totalUsers": 17234641,
-      "totalTrafficBytes": 893574340890412,
+      "score": 2692615,
+      "pingMs": 18,
+      "speedMbps": 315.086,
+      "sessions": 75,
+      "uptimeMinutes": 8362772073,
+      "totalUsers": 6985286,
+      "totalTrafficBytes": 416930530669029,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.31",
+          "host": "219.100.37.26",
           "port": 443,
           "protocol": null
         }
@@ -136,34 +136,34 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0003-JP-public-vpn-98.ovpn",
-          "host": "219.100.37.31",
+          "file": "ovpn/0003-JP-public-vpn-74.ovpn",
+          "host": "219.100.37.26",
           "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "20d2ad02460ab333",
-      "name": "public-vpn-201",
-      "hostname": "public-vpn-201",
-      "ip": "219.100.37.212",
+      "id": "843c7031fbec7b9e",
+      "name": "public-vpn-46",
+      "hostname": "public-vpn-46",
+      "ip": "219.100.37.10",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 2771080,
-      "pingMs": 15,
-      "speedMbps": 295.562,
-      "sessions": 74,
-      "uptimeMinutes": 8362442435,
-      "totalUsers": 15766949,
-      "totalTrafficBytes": 788374665184273,
+      "score": 2656390,
+      "pingMs": 16,
+      "speedMbps": 336.652,
+      "sessions": 54,
+      "uptimeMinutes": 8362796778,
+      "totalUsers": 10500633,
+      "totalTrafficBytes": 570564176751956,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.212",
+          "host": "219.100.37.10",
           "port": 443,
           "protocol": null
         }
@@ -173,256 +173,34 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0004-JP-public-vpn-201.ovpn",
-          "host": "219.100.37.212",
+          "file": "ovpn/0004-JP-public-vpn-46.ovpn",
+          "host": "219.100.37.10",
           "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "8d7197e4e8e77356",
-      "name": "public-vpn-251",
-      "hostname": "public-vpn-251",
-      "ip": "219.100.37.223",
+      "id": "6e98860849307ef0",
+      "name": "public-vpn-205",
+      "hostname": "public-vpn-205",
+      "ip": "219.100.37.214",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 2767995,
-      "pingMs": 13,
-      "speedMbps": 853.207,
-      "sessions": 85,
-      "uptimeMinutes": 8362435313,
-      "totalUsers": 15747209,
-      "totalTrafficBytes": 891078512993215,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.223",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0005-JP-public-vpn-251.ovpn",
-          "host": "219.100.37.223",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "d5a18d8f9b977feb",
-      "name": "public-vpn-222",
-      "hostname": "public-vpn-222",
-      "ip": "219.100.37.183",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2699934,
-      "pingMs": 11,
-      "speedMbps": 479.211,
-      "sessions": 38,
-      "uptimeMinutes": 8362461087,
-      "totalUsers": 1285943,
-      "totalTrafficBytes": 74557233712256,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.183",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0006-JP-public-vpn-222.ovpn",
-          "host": "219.100.37.183",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "5217c7e715524eef",
-      "name": "public-vpn-252",
-      "hostname": "public-vpn-252",
-      "ip": "219.100.37.175",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2656442,
-      "pingMs": 22,
-      "speedMbps": 355.922,
-      "sessions": 32,
-      "uptimeMinutes": 8362448235,
-      "totalUsers": 14687954,
-      "totalTrafficBytes": 703104908882391,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.175",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0007-JP-public-vpn-252.ovpn",
-          "host": "219.100.37.175",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "db301cf773649ff3",
-      "name": "public-vpn-194",
-      "hostname": "public-vpn-194",
-      "ip": "219.100.37.210",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2471548,
-      "pingMs": 13,
-      "speedMbps": 546.676,
-      "sessions": 41,
-      "uptimeMinutes": 8362447852,
-      "totalUsers": 21181863,
-      "totalTrafficBytes": 943464440395882,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.210",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0008-JP-public-vpn-194.ovpn",
-          "host": "219.100.37.210",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "9c188d6f6f8ac841",
-      "name": "public-vpn-261",
-      "hostname": "public-vpn-261",
-      "ip": "219.100.37.192",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2312266,
-      "pingMs": 9,
-      "speedMbps": 374.783,
-      "sessions": 66,
-      "uptimeMinutes": 8362418983,
-      "totalUsers": 18051988,
-      "totalTrafficBytes": 915844520875620,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.192",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0009-JP-public-vpn-261.ovpn",
-          "host": "219.100.37.192",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "2c7cd09b0b519e27",
-      "name": "public-vpn-151",
-      "hostname": "public-vpn-151",
-      "ip": "219.100.37.120",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2225834,
-      "pingMs": 15,
-      "speedMbps": 327.671,
-      "sessions": 20,
-      "uptimeMinutes": 8362456713,
-      "totalUsers": 9383533,
-      "totalTrafficBytes": 462978306285900,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.120",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0010-JP-public-vpn-151.ovpn",
-          "host": "219.100.37.120",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "60aa33fc860cd756",
-      "name": "public-vpn-230",
-      "hostname": "public-vpn-230",
-      "ip": "219.100.37.202",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 2110523,
+      "score": 2640207,
       "pingMs": 12,
-      "speedMbps": 422.507,
-      "sessions": 21,
-      "uptimeMinutes": 8362449922,
-      "totalUsers": 980240,
-      "totalTrafficBytes": 61029665636754,
+      "speedMbps": 282.71,
+      "sessions": 66,
+      "uptimeMinutes": 8362807734,
+      "totalUsers": 10974916,
+      "totalTrafficBytes": 513966149155226,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.202",
+          "host": "219.100.37.214",
           "port": 443,
           "protocol": null
         }
@@ -432,8 +210,230 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0011-JP-public-vpn-230.ovpn",
-          "host": "219.100.37.202",
+          "file": "ovpn/0005-JP-public-vpn-205.ovpn",
+          "host": "219.100.37.214",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "c263fb2eefac0bef",
+      "name": "public-vpn-84",
+      "hostname": "public-vpn-84",
+      "ip": "219.100.37.29",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 2628903,
+      "pingMs": 26,
+      "speedMbps": 416.067,
+      "sessions": 54,
+      "uptimeMinutes": 8362807877,
+      "totalUsers": 12293182,
+      "totalTrafficBytes": 723902354015637,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.29",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0006-JP-public-vpn-84.ovpn",
+          "host": "219.100.37.29",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "51c4c8cbf26ed15b",
+      "name": "public-vpn-136",
+      "hostname": "public-vpn-136",
+      "ip": "219.100.37.92",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 2451481,
+      "pingMs": 11,
+      "speedMbps": 432.121,
+      "sessions": 26,
+      "uptimeMinutes": 8362802860,
+      "totalUsers": 7156046,
+      "totalTrafficBytes": 344599200745973,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.92",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0007-JP-public-vpn-136.ovpn",
+          "host": "219.100.37.92",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "665a4a1b25e83c7b",
+      "name": "public-vpn-100",
+      "hostname": "public-vpn-100",
+      "ip": "219.100.37.57",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 2279369,
+      "pingMs": 10,
+      "speedMbps": 285.521,
+      "sessions": 115,
+      "uptimeMinutes": 8362807717,
+      "totalUsers": 24797303,
+      "totalTrafficBytes": 1875770494536459,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.57",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0008-JP-public-vpn-100.ovpn",
+          "host": "219.100.37.57",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "2174bcf0ef113d24",
+      "name": "public-vpn-239",
+      "hostname": "public-vpn-239",
+      "ip": "219.100.37.189",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 2127768,
+      "pingMs": 17,
+      "speedMbps": 328.756,
+      "sessions": 28,
+      "uptimeMinutes": 8362799078,
+      "totalUsers": 1153173,
+      "totalTrafficBytes": 61403023694114,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.189",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0009-JP-public-vpn-239.ovpn",
+          "host": "219.100.37.189",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "d2b4dc429168a91f",
+      "name": "public-vpn-134",
+      "hostname": "public-vpn-134",
+      "ip": "219.100.37.104",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1981135,
+      "pingMs": 22,
+      "speedMbps": 411.783,
+      "sessions": 70,
+      "uptimeMinutes": 8362815462,
+      "totalUsers": 13592711,
+      "totalTrafficBytes": 820521344804132,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.104",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0010-JP-public-vpn-134.ovpn",
+          "host": "219.100.37.104",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "395b1d7c454c69f6",
+      "name": "public-vpn-53",
+      "hostname": "public-vpn-53",
+      "ip": "219.100.37.225",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1952185,
+      "pingMs": 21,
+      "speedMbps": 383.018,
+      "sessions": 8,
+      "uptimeMinutes": 8362800157,
+      "totalUsers": 5139355,
+      "totalTrafficBytes": 9547537766394,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.225",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0011-JP-public-vpn-53.ovpn",
+          "host": "219.100.37.225",
           "port": 443,
           "protocol": "tcp"
         }
@@ -446,13 +446,13 @@
       "ip": "219.100.37.180",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 2082437,
+      "score": 1932546,
       "pingMs": 15,
       "speedMbps": 768.615,
-      "sessions": 78,
-      "uptimeMinutes": 8362429681,
-      "totalUsers": 19517078,
-      "totalTrafficBytes": 1172102826616168,
+      "sessions": 82,
+      "uptimeMinutes": 8362835634,
+      "totalUsers": 19517101,
+      "totalTrafficBytes": 1172105139489238,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
@@ -477,26 +477,100 @@
       ]
     },
     {
-      "id": "52b31e0b8d90cc0d",
-      "name": "public-vpn-234",
-      "hostname": "public-vpn-234",
-      "ip": "219.100.37.172",
+      "id": "a821778bde7af7e1",
+      "name": "vpn644026338",
+      "hostname": "vpn644026338",
+      "ip": "73.162.181.96",
+      "country": "United States",
+      "countryCode": "US",
+      "score": 1900225,
+      "pingMs": 14,
+      "speedMbps": 391.637,
+      "sessions": 96,
+      "uptimeMinutes": 1000,
+      "totalUsers": 3250,
+      "totalTrafficBytes": 515623150287,
+      "operator": "DESKTOP-4R1LP68's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "73.162.181.96",
+          "port": 1456,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0013-US-vpn644026338.ovpn",
+          "host": "73.162.181.96",
+          "port": 1456,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "5243bed02f5617b1",
+      "name": "public-vpn-122",
+      "hostname": "public-vpn-122",
+      "ip": "219.100.37.62",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 2025969,
+      "score": 1843816,
+      "pingMs": 14,
+      "speedMbps": 353.246,
+      "sessions": 54,
+      "uptimeMinutes": 8362803916,
+      "totalUsers": 10330613,
+      "totalTrafficBytes": 456431527331238,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.62",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0014-JP-public-vpn-122.ovpn",
+          "host": "219.100.37.62",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "515b46b141cf0485",
+      "name": "public-vpn-218",
+      "hostname": "public-vpn-218",
+      "ip": "219.100.37.187",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1691028,
       "pingMs": 22,
-      "speedMbps": 359.827,
-      "sessions": 21,
-      "uptimeMinutes": 8362428530,
-      "totalUsers": 1059276,
-      "totalTrafficBytes": 56630961964025,
+      "speedMbps": 304.108,
+      "sessions": 43,
+      "uptimeMinutes": 8362800233,
+      "totalUsers": 1416647,
+      "totalTrafficBytes": 65176641760759,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.172",
+          "host": "219.100.37.187",
           "port": 443,
           "protocol": null
         }
@@ -506,34 +580,34 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0013-JP-public-vpn-234.ovpn",
-          "host": "219.100.37.172",
+          "file": "ovpn/0015-JP-public-vpn-218.ovpn",
+          "host": "219.100.37.187",
           "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "9bb501005383e477",
-      "name": "public-vpn-90",
-      "hostname": "public-vpn-90",
-      "ip": "219.100.37.55",
+      "id": "1125dbff05031592",
+      "name": "public-vpn-145",
+      "hostname": "public-vpn-145",
+      "ip": "219.100.37.118",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1884860,
-      "pingMs": 20,
-      "speedMbps": 293.014,
-      "sessions": 148,
-      "uptimeMinutes": 8362438366,
-      "totalUsers": 30719693,
-      "totalTrafficBytes": 1920100231160918,
+      "score": 1649300,
+      "pingMs": 12,
+      "speedMbps": 342.582,
+      "sessions": 32,
+      "uptimeMinutes": 8362806485,
+      "totalUsers": 9513360,
+      "totalTrafficBytes": 488721600077101,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.55",
+          "host": "219.100.37.118",
           "port": 443,
           "protocol": null
         }
@@ -543,34 +617,34 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0014-JP-public-vpn-90.ovpn",
-          "host": "219.100.37.55",
+          "file": "ovpn/0016-JP-public-vpn-145.ovpn",
+          "host": "219.100.37.118",
           "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "0166e27ac88ca1ff",
-      "name": "public-vpn-113",
-      "hostname": "public-vpn-113",
-      "ip": "219.100.37.100",
+      "id": "83e38e5c18089b77",
+      "name": "public-vpn-139",
+      "hostname": "public-vpn-139",
+      "ip": "219.100.37.105",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1811345,
-      "pingMs": 13,
-      "speedMbps": 297.227,
-      "sessions": 117,
-      "uptimeMinutes": 8362449904,
-      "totalUsers": 17694404,
-      "totalTrafficBytes": 1113326341519714,
+      "score": 1552541,
+      "pingMs": 10,
+      "speedMbps": 326.416,
+      "sessions": 33,
+      "uptimeMinutes": 8362824118,
+      "totalUsers": 13570367,
+      "totalTrafficBytes": 665708078012014,
       "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.100",
+          "host": "219.100.37.105",
           "port": 443,
           "protocol": null
         }
@@ -580,35 +654,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0015-JP-public-vpn-113.ovpn",
-          "host": "219.100.37.100",
+          "file": "ovpn/0017-JP-public-vpn-139.ovpn",
+          "host": "219.100.37.105",
           "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "f48fd65708d852e2",
-      "name": "public-vpn-226",
-      "hostname": "public-vpn-226",
-      "ip": "219.100.37.201",
+      "id": "b0a696b47dd4586a",
+      "name": "vpn736301557",
+      "hostname": "vpn736301557",
+      "ip": "124.44.47.30",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1600110,
-      "pingMs": 18,
-      "speedMbps": 441.993,
-      "sessions": 133,
-      "uptimeMinutes": 8362451162,
-      "totalUsers": 2422531,
-      "totalTrafficBytes": 186561998004226,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "score": 1506181,
+      "pingMs": 15,
+      "speedMbps": 635.126,
+      "sessions": 84,
+      "uptimeMinutes": 585305637,
+      "totalUsers": 8264,
+      "totalTrafficBytes": 3089897970985,
+      "operator": "DESKTOP-MYSELF's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "219.100.37.201",
-          "port": 443,
+          "host": "124.44.47.30",
+          "port": 1342,
           "protocol": null
         }
       ],
@@ -617,194 +691,9 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0016-JP-public-vpn-226.ovpn",
-          "host": "219.100.37.201",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "b18ab44f92633a50",
-      "name": "vpn283496929",
-      "hostname": "vpn283496929",
-      "ip": "49.142.66.33",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1493474,
-      "pingMs": 27,
-      "speedMbps": 51.355,
-      "sessions": 70,
-      "uptimeMinutes": 823524637,
-      "totalUsers": 52182,
-      "totalTrafficBytes": 5500588220488,
-      "operator": "Eunho's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "49.142.66.33",
-          "port": 1483,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0017-KR-vpn283496929.ovpn",
-          "host": "49.142.66.33",
-          "port": 1483,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "bdd4f7446eae917d",
-      "name": "vpn379858910",
-      "hostname": "vpn379858910",
-      "ip": "126.63.159.81",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1472604,
-      "pingMs": 7,
-      "speedMbps": 62.12,
-      "sessions": 65,
-      "uptimeMinutes": 3007349637,
-      "totalUsers": 35758,
-      "totalTrafficBytes": 6717098053222,
-      "operator": "DESKTOP-46I4DVU's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "126.63.159.81",
-          "port": 1969,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0018-JP-vpn379858910.ovpn",
-          "host": "126.63.159.81",
-          "port": 1969,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "5bfa62aab4f797a0",
-      "name": "vpn325696545",
-      "hostname": "vpn325696545",
-      "ip": "39.111.138.50",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1463964,
-      "pingMs": 2,
-      "speedMbps": 972.815,
-      "sessions": 44,
-      "uptimeMinutes": 607579637,
-      "totalUsers": 64089,
-      "totalTrafficBytes": 33579754750518,
-      "operator": "kojiiiimen's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "39.111.138.50",
-          "port": 1195,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0019-JP-vpn325696545.ovpn",
-          "host": "39.111.138.50",
-          "port": 1195,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "e3b7a91390de4369",
-      "name": "vpn271901051",
-      "hostname": "vpn271901051",
-      "ip": "121.142.148.62",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1457655,
-      "pingMs": 31,
-      "speedMbps": 86.32,
-      "sessions": 89,
-      "uptimeMinutes": 7757468637,
-      "totalUsers": 9249707,
-      "totalTrafficBytes": 829011763999354,
-      "operator": "DESKTOP-6O1PO5A's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "121.142.148.62",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0020-KR-vpn271901051.ovpn",
-          "host": "121.142.148.62",
-          "port": 995,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "6dc9db9915a160a7",
-      "name": "vpn137812529",
-      "hostname": "vpn137812529",
-      "ip": "218.228.192.151",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1450698,
-      "pingMs": 2,
-      "speedMbps": 100.831,
-      "sessions": 17,
-      "uptimeMinutes": 2147716637,
-      "totalUsers": 56290,
-      "totalTrafficBytes": 2590023389799,
-      "operator": "DESKTOP-N529KJ2's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "218.228.192.151",
-          "port": 1240,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0021-JP-vpn137812529.ovpn",
-          "host": "218.228.192.151",
-          "port": 1240,
+          "file": "ovpn/0018-JP-vpn736301557.ovpn",
+          "host": "124.44.47.30",
+          "port": 1342,
           "protocol": "tcp"
         }
       ]
@@ -816,7 +705,7 @@
       "ip": "217.138.212.62",
       "country": "Romania",
       "countryCode": "RO",
-      "score": 1440975,
+      "score": 1445948,
       "pingMs": 10,
       "speedMbps": 228.516,
       "sessions": 142,
@@ -839,7 +728,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0022-RO-opengw.ovpn",
+          "file": "ovpn/0019-RO-opengw.ovpn",
           "host": "217.138.212.62",
           "port": 443,
           "protocol": "tcp"
@@ -847,27 +736,64 @@
       ]
     },
     {
-      "id": "d2835996afce0d26",
-      "name": "vpn258563631",
-      "hostname": "vpn258563631",
-      "ip": "153.232.76.220",
+      "id": "d64d68a05d4f5b4d",
+      "name": "vpn966533712",
+      "hostname": "vpn966533712",
+      "ip": "59.6.114.202",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 1443141,
+      "pingMs": 29,
+      "speedMbps": 306.251,
+      "sessions": 92,
+      "uptimeMinutes": 2147716637,
+      "totalUsers": 193383,
+      "totalTrafficBytes": 61506588176403,
+      "operator": "PC's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "59.6.114.202",
+          "port": 1941,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0020-KR-vpn966533712.ovpn",
+          "host": "59.6.114.202",
+          "port": 1941,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "fb04f547e8d37093",
+      "name": "vpn267947139",
+      "hostname": "vpn267947139",
+      "ip": "123.219.97.157",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1421555,
-      "pingMs": 6,
-      "speedMbps": 91.073,
-      "sessions": 40,
-      "uptimeMinutes": 1877362637,
-      "totalUsers": 492409,
-      "totalTrafficBytes": 42700670926722,
-      "operator": "DESKTOP-FPPBJPD's owner",
+      "score": 1433795,
+      "pingMs": 8,
+      "speedMbps": 87.591,
+      "sessions": 36,
+      "uptimeMinutes": 1295297637,
+      "totalUsers": 287415,
+      "totalTrafficBytes": 27918572901055,
+      "operator": "yasu20230801's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "153.232.76.220",
-          "port": 1423,
+          "host": "123.219.97.157",
+          "port": 1663,
           "protocol": null
         }
       ],
@@ -876,35 +802,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0023-JP-vpn258563631.ovpn",
-          "host": "153.232.76.220",
-          "port": 1423,
+          "file": "ovpn/0021-JP-vpn267947139.ovpn",
+          "host": "123.219.97.157",
+          "port": 1663,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "e35d915b8e2a38f1",
-      "name": "vpn348580824",
-      "hostname": "vpn348580824",
-      "ip": "121.165.121.91",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1403732,
-      "pingMs": 31,
-      "speedMbps": 55.824,
-      "sessions": 84,
-      "uptimeMinutes": 1373140637,
-      "totalUsers": 1017106,
-      "totalTrafficBytes": 133902319089989,
-      "operator": "DESKTOP-GN72I4P's owner",
+      "id": "b2345347d96ab977",
+      "name": "laud",
+      "hostname": "laud",
+      "ip": "115.179.206.241",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1411476,
+      "pingMs": 24,
+      "speedMbps": 41.219,
+      "sessions": 131,
+      "uptimeMinutes": 1295297637,
+      "totalUsers": 1327340,
+      "totalTrafficBytes": 206412921581720,
+      "operator": "Japan VPN",
       "logType": "2weeks",
-      "message": "",
+      "message": "こんにちは! Hello! Здравствуйте! 你好! سلام (^_^)/",
       "source": "official-https",
       "remotes": [
         {
-          "host": "121.165.121.91",
-          "port": 995,
+          "host": "115.179.206.241",
+          "port": 443,
           "protocol": null
         }
       ],
@@ -913,109 +839,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0024-KR-vpn348580824.ovpn",
-          "host": "121.165.121.91",
-          "port": 995,
+          "file": "ovpn/0022-JP-laud.ovpn",
+          "host": "115.179.206.241",
+          "port": 443,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "39d5cdbabf6d538e",
-      "name": "vpn574906134",
-      "hostname": "vpn574906134",
-      "ip": "61.253.166.119",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1399453,
-      "pingMs": 35,
-      "speedMbps": 68.862,
-      "sessions": 40,
-      "uptimeMinutes": 1525897637,
-      "totalUsers": 200063,
-      "totalTrafficBytes": 24680756965446,
-      "operator": "DESKTOP-O25610O's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "61.253.166.119",
-          "port": 1463,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0025-KR-vpn574906134.ovpn",
-          "host": "61.253.166.119",
-          "port": 1463,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "7fe42c1d8d97750e",
-      "name": "vpn187374041",
-      "hostname": "vpn187374041",
-      "ip": "59.26.168.152",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1395232,
-      "pingMs": 31,
-      "speedMbps": 48.499,
-      "sessions": 27,
-      "uptimeMinutes": 681328637,
-      "totalUsers": 75605,
-      "totalTrafficBytes": 17157260322072,
-      "operator": "DESKTOP-1SOB89B's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "59.26.168.152",
-          "port": 1665,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0026-KR-vpn187374041.ovpn",
-          "host": "59.26.168.152",
-          "port": 1665,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "cc19165cb9dd3558",
-      "name": "vpn989441931",
-      "hostname": "vpn989441931",
-      "ip": "42.82.190.232",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1394332,
-      "pingMs": 45,
-      "speedMbps": 44.271,
-      "sessions": 10,
+      "id": "3a77b4c437356e98",
+      "name": "vpn670095336",
+      "hostname": "vpn670095336",
+      "ip": "39.111.204.72",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1407890,
+      "pingMs": 7,
+      "speedMbps": 932.252,
+      "sessions": 19,
       "uptimeMinutes": 607579637,
-      "totalUsers": 292149,
-      "totalTrafficBytes": 14235749318716,
-      "operator": "han3210's owner",
+      "totalUsers": 9363,
+      "totalTrafficBytes": 3975046366941,
+      "operator": "melvy9950x3d's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "42.82.190.232",
-          "port": 1280,
+          "host": "39.111.204.72",
+          "port": 1622,
           "protocol": null
         }
       ],
@@ -1024,46 +876,9 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0027-KR-vpn989441931.ovpn",
-          "host": "42.82.190.232",
-          "port": 1280,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "1ec7a5bb1de286ac",
-      "name": "public-vpn-117",
-      "hostname": "public-vpn-117",
-      "ip": "219.100.37.61",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1387113,
-      "pingMs": 23,
-      "speedMbps": 333.606,
-      "sessions": 23,
-      "uptimeMinutes": 8362413620,
-      "totalUsers": 8110979,
-      "totalTrafficBytes": 337890500614563,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.61",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0028-JP-public-vpn-117.ovpn",
-          "host": "219.100.37.61",
-          "port": 443,
+          "file": "ovpn/0023-JP-vpn670095336.ovpn",
+          "host": "39.111.204.72",
+          "port": 1622,
           "protocol": "tcp"
         }
       ]
@@ -1075,7 +890,7 @@
       "ip": "59.133.158.94",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1385497,
+      "score": 1383870,
       "pingMs": 30,
       "speedMbps": 272.611,
       "sessions": 55,
@@ -1098,7 +913,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0029-JP-kanratown.ovpn",
+          "file": "ovpn/0024-JP-kanratown.ovpn",
           "host": "59.133.158.94",
           "port": 992,
           "protocol": "tcp"
@@ -1106,63 +921,26 @@
       ]
     },
     {
-      "id": "674ea52bb5193e50",
-      "name": "public-vpn-186",
-      "hostname": "public-vpn-186",
-      "ip": "219.100.37.163",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1362068,
-      "pingMs": 13,
-      "speedMbps": 609.287,
-      "sessions": 158,
-      "uptimeMinutes": 8362434073,
-      "totalUsers": 20123907,
-      "totalTrafficBytes": 1339226640004632,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.163",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0030-JP-public-vpn-186.ovpn",
-          "host": "219.100.37.163",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "d9375e196f13978a",
-      "name": "vpn451643961",
-      "hostname": "vpn451643961",
-      "ip": "221.155.188.2",
+      "id": "76fb302a1e2a53ec",
+      "name": "vpn978234813",
+      "hostname": "vpn978234813",
+      "ip": "59.11.36.183",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 1351179,
-      "pingMs": 32,
-      "speedMbps": 63.018,
-      "sessions": 6,
-      "uptimeMinutes": 596786637,
-      "totalUsers": 231739,
-      "totalTrafficBytes": 25605587480075,
-      "operator": "JungHwan's owner",
+      "score": 1344647,
+      "pingMs": 31,
+      "speedMbps": 87.563,
+      "sessions": 16,
+      "uptimeMinutes": 765959637,
+      "totalUsers": 83216,
+      "totalTrafficBytes": 9899145427710,
+      "operator": "DESKTOP-E49A9QF's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "221.155.188.2",
+          "host": "59.11.36.183",
           "port": 995,
           "protocol": null
         }
@@ -1172,72 +950,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0031-KR-vpn451643961.ovpn",
-          "host": "221.155.188.2",
+          "file": "ovpn/0025-KR-vpn978234813.ovpn",
+          "host": "59.11.36.183",
           "port": 995,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "b2345347d96ab977",
-      "name": "laud",
-      "hostname": "laud",
-      "ip": "115.179.206.241",
+      "id": "2f4f25628dad6552",
+      "name": "vpn976288368",
+      "hostname": "vpn976288368",
+      "ip": "180.145.221.189",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1340181,
-      "pingMs": 40,
-      "speedMbps": 88.08,
-      "sessions": 135,
-      "uptimeMinutes": 1295297637,
-      "totalUsers": 1326898,
-      "totalTrafficBytes": 206280028255460,
-      "operator": "Japan VPN",
-      "logType": "2weeks",
-      "message": "こんにちは! Hello! Здравствуйте! 你好! سلام (^_^)/",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "115.179.206.241",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0032-JP-laud.ovpn",
-          "host": "115.179.206.241",
-          "port": 443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "052e86d450f46aad",
-      "name": "vpn687902218",
-      "hostname": "vpn687902218",
-      "ip": "109.226.246.93",
-      "country": "Russian Federation",
-      "countryCode": "RU",
-      "score": 1321112,
-      "pingMs": 75,
-      "speedMbps": 81.935,
-      "sessions": 0,
-      "uptimeMinutes": 607579637,
-      "totalUsers": 39834,
-      "totalTrafficBytes": 4307075153882,
-      "operator": "james-ПК's owner",
+      "score": 1315654,
+      "pingMs": 7,
+      "speedMbps": 317.91,
+      "sessions": 29,
+      "uptimeMinutes": 500182637,
+      "totalUsers": 4788,
+      "totalTrafficBytes": 1571771423804,
+      "operator": "工場エキセン's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "109.226.246.93",
-          "port": 1443,
+          "host": "180.145.221.189",
+          "port": 1205,
           "protocol": null
         }
       ],
@@ -1246,83 +987,9 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0033-RU-vpn687902218.ovpn",
-          "host": "109.226.246.93",
-          "port": 1443,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "ba88923257d38a88",
-      "name": "vpn214946447",
-      "hostname": "vpn214946447",
-      "ip": "211.49.151.5",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1312736,
-      "pingMs": 39,
-      "speedMbps": 77.234,
-      "sessions": 9,
-      "uptimeMinutes": 1890862637,
-      "totalUsers": 12417,
-      "totalTrafficBytes": 1169740252848,
-      "operator": "DESKTOP-2024's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "211.49.151.5",
-          "port": 1786,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0034-KR-vpn214946447.ovpn",
-          "host": "211.49.151.5",
-          "port": 1786,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "fc5d1df5b79bc2a1",
-      "name": "public-vpn-204",
-      "hostname": "public-vpn-204",
-      "ip": "219.100.37.181",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1310080,
-      "pingMs": 8,
-      "speedMbps": 869.146,
-      "sessions": 36,
-      "uptimeMinutes": 8362458207,
-      "totalUsers": 9761885,
-      "totalTrafficBytes": 490765863129242,
-      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "219.100.37.181",
-          "port": 443,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0035-JP-public-vpn-204.ovpn",
-          "host": "219.100.37.181",
-          "port": 443,
+          "file": "ovpn/0026-JP-vpn976288368.ovpn",
+          "host": "180.145.221.189",
+          "port": 1205,
           "protocol": "tcp"
         }
       ]
@@ -1334,7 +1001,7 @@
       "ip": "110.163.135.59",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1291844,
+      "score": 1294465,
       "pingMs": 9,
       "speedMbps": 279.104,
       "sessions": 297,
@@ -1357,7 +1024,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0036-JP-n26.ovpn",
+          "file": "ovpn/0027-JP-n26.ovpn",
           "host": "110.163.135.59",
           "port": 1194,
           "protocol": "tcp"
@@ -1365,64 +1032,27 @@
       ]
     },
     {
-      "id": "f813fb9a70f87d39",
-      "name": "vpn172053061",
-      "hostname": "vpn172053061",
-      "ip": "125.142.186.87",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1261374,
-      "pingMs": 32,
-      "speedMbps": 454.081,
-      "sessions": 7,
-      "uptimeMinutes": 511734637,
-      "totalUsers": 75273,
-      "totalTrafficBytes": 14395976369661,
-      "operator": "main's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "125.142.186.87",
-          "port": 1323,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0037-KR-vpn172053061.ovpn",
-          "host": "125.142.186.87",
-          "port": 1323,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "a40123da685710df",
-      "name": "vpn931771153",
-      "hostname": "vpn931771153",
-      "ip": "36.8.6.31",
+      "id": "d90b010cd596d67e",
+      "name": "public-vpn-221",
+      "hostname": "public-vpn-221",
+      "ip": "219.100.37.184",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1213437,
-      "pingMs": 6,
-      "speedMbps": 400.546,
-      "sessions": 7,
-      "uptimeMinutes": 419160637,
-      "totalUsers": 125684,
-      "totalTrafficBytes": 13451966184656,
-      "operator": "railgun's owner",
+      "score": 1257914,
+      "pingMs": 9,
+      "speedMbps": 487.811,
+      "sessions": 33,
+      "uptimeMinutes": 8362820919,
+      "totalUsers": 1296482,
+      "totalTrafficBytes": 63921425666660,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "36.8.6.31",
-          "port": 1237,
+          "host": "219.100.37.184",
+          "port": 443,
           "protocol": null
         }
       ],
@@ -1431,10 +1061,84 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0038-JP-vpn931771153.ovpn",
-          "host": "36.8.6.31",
-          "port": 1237,
+          "file": "ovpn/0028-JP-public-vpn-221.ovpn",
+          "host": "219.100.37.184",
+          "port": 443,
           "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "d3f1709c6010f950",
+      "name": "public-vpn-242",
+      "hostname": "public-vpn-242",
+      "ip": "219.100.37.186",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1253404,
+      "pingMs": 16,
+      "speedMbps": 507.361,
+      "sessions": 98,
+      "uptimeMinutes": 8362810059,
+      "totalUsers": 2116784,
+      "totalTrafficBytes": 109996567316697,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.186",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0029-JP-public-vpn-242.ovpn",
+          "host": "219.100.37.186",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "6837d2ea0fdb9fb9",
+      "name": "vpn372054718",
+      "hostname": "vpn372054718",
+      "ip": "213.230.86.122",
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "score": 1229275,
+      "pingMs": 81,
+      "speedMbps": 100.626,
+      "sessions": 10,
+      "uptimeMinutes": 585305637,
+      "totalUsers": 3520,
+      "totalTrafficBytes": 798266426359,
+      "operator": "WIN-B21745KHM24's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "213.230.86.122",
+          "port": 15131,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0030-UZ-vpn372054718.ovpn",
+          "host": "213.230.86.122",
+          "port": 15131,
+          "protocol": "udp"
         }
       ]
     },
@@ -1445,7 +1149,7 @@
       "ip": "220.121.73.181",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 1196277,
+      "score": 1202831,
       "pingMs": 28,
       "speedMbps": 89.103,
       "sessions": 12,
@@ -1468,7 +1172,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0039-KR-vpn883110986.ovpn",
+          "file": "ovpn/0031-KR-vpn883110986.ovpn",
           "host": "220.121.73.181",
           "port": 1905,
           "protocol": "tcp"
@@ -1476,286 +1180,138 @@
       ]
     },
     {
-      "id": "a171f419260d453f",
-      "name": "vpn727714043",
-      "hostname": "vpn727714043",
-      "ip": "126.8.247.54",
+      "id": "6f8a15f071d02012",
+      "name": "public-vpn-51",
+      "hostname": "public-vpn-51",
+      "ip": "219.100.37.13",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 1166836,
+      "score": 1155364,
+      "pingMs": 9,
+      "speedMbps": 935.771,
+      "sessions": 65,
+      "uptimeMinutes": 8362796224,
+      "totalUsers": 10954986,
+      "totalTrafficBytes": 580373864540600,
+      "operator": "Daiyuu Nobori_ Japan. Academic Use Only.",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.100.37.13",
+          "port": 443,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0032-JP-public-vpn-51.ovpn",
+          "host": "219.100.37.13",
+          "port": 443,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "3282a14e6b79f47d",
+      "name": "vpn229556497",
+      "hostname": "vpn229556497",
+      "ip": "1.176.240.230",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 1132528,
+      "pingMs": 39,
+      "speedMbps": 233.847,
+      "sessions": 5,
+      "uptimeMinutes": 419160637,
+      "totalUsers": 102948,
+      "totalTrafficBytes": 15963358541503,
+      "operator": "DESKTOP-9B5P4RO's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "1.176.240.230",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0033-KR-vpn229556497.ovpn",
+          "host": "1.176.240.230",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "d6534b84e4851307",
+      "name": "vpn184169581",
+      "hostname": "vpn184169581",
+      "ip": "61.46.98.254",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 1039938,
+      "pingMs": 13,
+      "speedMbps": 650.154,
+      "sessions": 65,
+      "uptimeMinutes": 240506637,
+      "totalUsers": 16314,
+      "totalTrafficBytes": 4124071348709,
+      "operator": "pcyuma's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "61.46.98.254",
+          "port": 1713,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0034-JP-vpn184169581.ovpn",
+          "host": "61.46.98.254",
+          "port": 1713,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "3621e6ef37a34892",
+      "name": "vpn127203103",
+      "hostname": "vpn127203103",
+      "ip": "121.83.38.49",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 984860,
       "pingMs": 4,
-      "speedMbps": 636.118,
+      "speedMbps": 344.113,
       "sessions": 18,
-      "uptimeMinutes": 407067637,
-      "totalUsers": 88563,
-      "totalTrafficBytes": 23631752377309,
-      "operator": "Hiroki's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "126.8.247.54",
-          "port": 1799,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0040-JP-vpn727714043.ovpn",
-          "host": "126.8.247.54",
-          "port": 1799,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "b5655b2cf8357924",
-      "name": "vpn723529131",
-      "hostname": "vpn723529131",
-      "ip": "61.79.191.254",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1153361,
-      "pingMs": 30,
-      "speedMbps": 114.679,
-      "sessions": 20,
-      "uptimeMinutes": 407067637,
-      "totalUsers": 29548,
-      "totalTrafficBytes": 4673168336672,
-      "operator": "DESKTOP-HVMJPG3's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "61.79.191.254",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0041-KR-vpn723529131.ovpn",
-          "host": "61.79.191.254",
-          "port": 995,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "62d0fca1b294ab57",
-      "name": "vpn650277207",
-      "hostname": "vpn650277207",
-      "ip": "171.4.196.108",
-      "country": "Thailand",
-      "countryCode": "TH",
-      "score": 1071174,
-      "pingMs": 20,
-      "speedMbps": 74.3,
-      "sessions": 53,
-      "uptimeMinutes": 332005637,
-      "totalUsers": 85746,
-      "totalTrafficBytes": 23554762340866,
-      "operator": "DESKTOP-B0AKN7E's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "171.4.196.108",
-          "port": 1571,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0042-TH-vpn650277207.ovpn",
-          "host": "171.4.196.108",
-          "port": 1571,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "f96c8a72ddde57cb",
-      "name": "vpn237445464",
-      "hostname": "vpn237445464",
-      "ip": "121.145.169.191",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1065013,
-      "pingMs": 26,
-      "speedMbps": 100.476,
-      "sessions": 9,
-      "uptimeMinutes": 332005637,
-      "totalUsers": 60344,
-      "totalTrafficBytes": 4787987818025,
-      "operator": "DESKTOP-KUAUN8Q's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "121.145.169.191",
-          "port": 1324,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0043-KR-vpn237445464.ovpn",
-          "host": "121.145.169.191",
-          "port": 1324,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "05287a5acffc6648",
-      "name": "vpn160391704",
-      "hostname": "vpn160391704",
-      "ip": "126.77.139.139",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1045496,
-      "pingMs": 16,
-      "speedMbps": 286.502,
-      "sessions": 4,
-      "uptimeMinutes": 320054637,
-      "totalUsers": 250175,
-      "totalTrafficBytes": 23105774924572,
-      "operator": "DESKTOP-5GD0LC8's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "126.77.139.139",
-          "port": 1852,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0044-JP-vpn160391704.ovpn",
-          "host": "126.77.139.139",
-          "port": 1852,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "90a0b8f01fbea5fc",
-      "name": "vpn159547812",
-      "hostname": "vpn159547812",
-      "ip": "220.81.129.98",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1043691,
-      "pingMs": 30,
-      "speedMbps": 292.878,
-      "sessions": 13,
-      "uptimeMinutes": 320054637,
-      "totalUsers": 279146,
-      "totalTrafficBytes": 23095262041376,
-      "operator": "DESKTOP-J3O1MSR's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "220.81.129.98",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0045-KR-vpn159547812.ovpn",
-          "host": "220.81.129.98",
-          "port": 995,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "f0fef8287b85fb6a",
-      "name": "vpn737724616",
-      "hostname": "vpn737724616",
-      "ip": "218.146.192.89",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 1042260,
-      "pingMs": 23,
-      "speedMbps": 335.043,
-      "sessions": 28,
-      "uptimeMinutes": 320054637,
-      "totalUsers": 89799,
-      "totalTrafficBytes": 19863047839277,
-      "operator": "DESKTOP-382E3IC's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "218.146.192.89",
-          "port": 1419,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0046-KR-vpn737724616.ovpn",
-          "host": "218.146.192.89",
-          "port": 1419,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "2462be7c8d7e1a29",
-      "name": "vpn543986594",
-      "hostname": "vpn543986594",
-      "ip": "60.32.80.192",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 1015398,
-      "pingMs": 4,
-      "speedMbps": 93.416,
-      "sessions": 33,
       "uptimeMinutes": 240506637,
-      "totalUsers": 216879,
-      "totalTrafficBytes": 26640608117790,
-      "operator": "DESKTOP-AMRLBIP's owner",
+      "totalUsers": 14135,
+      "totalTrafficBytes": 2055302360112,
+      "operator": "DESKTOP-3PDIQD1's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "60.32.80.192",
-          "port": 1787,
+          "host": "121.83.38.49",
+          "port": 1621,
           "protocol": null
         }
       ],
@@ -1764,47 +1320,121 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0047-JP-vpn543986594.ovpn",
-          "host": "60.32.80.192",
-          "port": 1787,
+          "file": "ovpn/0035-JP-vpn127203103.ovpn",
+          "host": "121.83.38.49",
+          "port": 1621,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "722e17aa83cce0f5",
-      "name": "vpn494624299",
-      "hostname": "vpn494624299",
-      "ip": "133.32.224.158",
+      "id": "f776ab4aacdd0274",
+      "name": "vpn919660306",
+      "hostname": "vpn919660306",
+      "ip": "183.111.171.195",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 983116,
+      "pingMs": 118,
+      "speedMbps": 6.215,
+      "sessions": 5,
+      "uptimeMinutes": 846171637,
+      "totalUsers": 4439,
+      "totalTrafficBytes": 238256718566,
+      "operator": "DESKTOP-8AQJ7DD's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "183.111.171.195",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0036-KR-vpn919660306.ovpn",
+          "host": "183.111.171.195",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "da321270bfd146a2",
+      "name": "vpn851717986",
+      "hostname": "vpn851717986",
+      "ip": "126.79.197.198",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 907135,
+      "score": 981777,
       "pingMs": 5,
-      "speedMbps": 79.621,
-      "sessions": 9,
+      "speedMbps": 256.845,
+      "sessions": 18,
       "uptimeMinutes": 240506637,
-      "totalUsers": 23704,
-      "totalTrafficBytes": 2393748701826,
-      "operator": "Bell-DESKTOP's owner",
+      "totalUsers": 76964,
+      "totalTrafficBytes": 12937145484092,
+      "operator": "DESKTOP-F23S51A's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "133.32.224.158",
-          "port": 6408,
+          "host": "126.79.197.198",
+          "port": 1684,
           "protocol": null
         }
       ],
-      "protocol": "udp",
+      "protocol": "tcp",
       "username": "vpn",
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0048-JP-vpn494624299.ovpn",
-          "host": "133.32.224.158",
-          "port": 6408,
-          "protocol": "udp"
+          "file": "ovpn/0037-JP-vpn851717986.ovpn",
+          "host": "126.79.197.198",
+          "port": 1684,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "bf49e8a333afd547",
+      "name": "vpn665155582",
+      "hostname": "vpn665155582",
+      "ip": "118.68.222.19",
+      "country": "Viet Nam",
+      "countryCode": "VN",
+      "score": 951099,
+      "pingMs": 24,
+      "speedMbps": 90.653,
+      "sessions": 58,
+      "uptimeMinutes": 240506637,
+      "totalUsers": 143336,
+      "totalTrafficBytes": 34909989446451,
+      "operator": "JOON-4's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "118.68.222.19",
+          "port": 1337,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0038-VN-vpn665155582.ovpn",
+          "host": "118.68.222.19",
+          "port": 1337,
+          "protocol": "tcp"
         }
       ]
     },
@@ -1815,7 +1445,7 @@
       "ip": "140.111.148.17",
       "country": "Taiwan",
       "countryCode": "TW",
-      "score": 905100,
+      "score": 910360,
       "pingMs": 4,
       "speedMbps": 463.81,
       "sessions": 133,
@@ -1838,7 +1468,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0049-TW-vpn713264157.ovpn",
+          "file": "ovpn/0039-TW-vpn713264157.ovpn",
           "host": "140.111.148.17",
           "port": 992,
           "protocol": "tcp"
@@ -1846,323 +1476,27 @@
       ]
     },
     {
-      "id": "f5db93d43216b0cd",
-      "name": "vpn130683274",
-      "hostname": "vpn130683274",
-      "ip": "220.146.228.179",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 849652,
-      "pingMs": 3,
-      "speedMbps": 386.301,
-      "sessions": 11,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 86925,
-      "totalTrafficBytes": 20743670421602,
-      "operator": "DESKTOP-SJ3I54B's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "220.146.228.179",
-          "port": 1214,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0050-JP-vpn130683274.ovpn",
-          "host": "220.146.228.179",
-          "port": 1214,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "89748d88930f21b6",
-      "name": "vpn723618592",
-      "hostname": "vpn723618592",
-      "ip": "180.33.129.1",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 838584,
-      "pingMs": 18,
-      "speedMbps": 91.403,
-      "sessions": 1,
-      "uptimeMinutes": 161694637,
-      "totalUsers": 1729,
-      "totalTrafficBytes": 58884378987,
-      "operator": "RE204-PC's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "180.33.129.1",
-          "port": 1246,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0051-JP-vpn723618592.ovpn",
-          "host": "180.33.129.1",
-          "port": 1246,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "ec438b620fa229f3",
-      "name": "vpn559841433",
-      "hostname": "vpn559841433",
-      "ip": "59.129.176.190",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 830867,
-      "pingMs": 3,
-      "speedMbps": 881.829,
-      "sessions": 47,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 685824,
-      "totalTrafficBytes": 202929532693949,
-      "operator": "DESKTOP-PUNGIPN's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "59.129.176.190",
-          "port": 1474,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0052-JP-vpn559841433.ovpn",
-          "host": "59.129.176.190",
-          "port": 1474,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "66f32f4998a297c0",
-      "name": "vpn836416898",
-      "hostname": "vpn836416898",
-      "ip": "126.126.157.149",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 829168,
-      "pingMs": 3,
-      "speedMbps": 660.794,
-      "sessions": 15,
-      "uptimeMinutes": 161694637,
-      "totalUsers": 701995,
-      "totalTrafficBytes": 179238299409059,
-      "operator": "EP-Z's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "126.126.157.149",
-          "port": 1580,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0053-JP-vpn836416898.ovpn",
-          "host": "126.126.157.149",
-          "port": 1580,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "d5aeacaef6118219",
-      "name": "vpn839240895",
-      "hostname": "vpn839240895",
-      "ip": "114.189.132.218",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 826636,
-      "pingMs": 8,
-      "speedMbps": 47.834,
-      "sessions": 13,
-      "uptimeMinutes": 161694637,
-      "totalUsers": 99522,
-      "totalTrafficBytes": 11692770640777,
-      "operator": "xs3.kawai's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "114.189.132.218",
-          "port": 1806,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0054-JP-vpn839240895.ovpn",
-          "host": "114.189.132.218",
-          "port": 1806,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "6c1034a1196e3977",
-      "name": "vpn675471424",
-      "hostname": "vpn675471424",
-      "ip": "114.189.166.239",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 817050,
-      "pingMs": 8,
-      "speedMbps": 225.679,
-      "sessions": 33,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 33561,
-      "totalTrafficBytes": 4763133512876,
-      "operator": "DESKTOP-B760M's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "114.189.166.239",
-          "port": 1549,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0055-JP-vpn675471424.ovpn",
-          "host": "114.189.166.239",
-          "port": 1549,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "83be4abaf149ee5f",
-      "name": "vpn569711123",
-      "hostname": "vpn569711123",
-      "ip": "153.206.195.38",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 815495,
-      "pingMs": 4,
-      "speedMbps": 520.562,
-      "sessions": 16,
-      "uptimeMinutes": 161694637,
-      "totalUsers": 34557,
-      "totalTrafficBytes": 4147439151270,
-      "operator": "Z68's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "153.206.195.38",
-          "port": 1616,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0056-JP-vpn569711123.ovpn",
-          "host": "153.206.195.38",
-          "port": 1616,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "a80e13948b62edbd",
-      "name": "vpn472693800",
-      "hostname": "vpn472693800",
-      "ip": "203.153.72.89",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 805108,
-      "pingMs": 4,
-      "speedMbps": 622.992,
-      "sessions": 2,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 13436,
-      "totalTrafficBytes": 2463212653172,
-      "operator": "2025kudopc's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "203.153.72.89",
-          "port": 1600,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0057-JP-vpn472693800.ovpn",
-          "host": "203.153.72.89",
-          "port": 1600,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "ec0cb198153bb42b",
-      "name": "vpn867945817",
-      "hostname": "vpn867945817",
-      "ip": "86.102.204.49",
-      "country": "Russian Federation",
-      "countryCode": "RU",
-      "score": 800396,
-      "pingMs": 126,
-      "speedMbps": 40.736,
+      "id": "29569a7f3145ccc2",
+      "name": "vpn400627339",
+      "hostname": "vpn400627339",
+      "ip": "125.142.162.21",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 886475,
+      "pingMs": 28,
+      "speedMbps": 205.708,
       "sessions": 1,
       "uptimeMinutes": 240506637,
-      "totalUsers": 7165,
-      "totalTrafficBytes": 458233902098,
-      "operator": "DESKTOP-8HKBPAB's owner",
+      "totalUsers": 393677,
+      "totalTrafficBytes": 19561689429803,
+      "operator": "DESKTOP-0JBM4GB's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "86.102.204.49",
-          "port": 1420,
+          "host": "125.142.162.21",
+          "port": 995,
           "protocol": null
         }
       ],
@@ -2171,35 +1505,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0058-RU-vpn867945817.ovpn",
-          "host": "86.102.204.49",
-          "port": 1420,
+          "file": "ovpn/0040-KR-vpn400627339.ovpn",
+          "host": "125.142.162.21",
+          "port": 995,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "20708c2b916c857f",
-      "name": "vpn751119958",
-      "hostname": "vpn751119958",
-      "ip": "126.54.8.57",
+      "id": "290c248837f12d01",
+      "name": "vpn722645980",
+      "hostname": "vpn722645980",
+      "ip": "126.86.31.151",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 800231,
-      "pingMs": 3,
-      "speedMbps": 86.603,
-      "sessions": 5,
+      "score": 807226,
+      "pingMs": 9,
+      "speedMbps": 337.249,
+      "sessions": 11,
       "uptimeMinutes": 146107637,
-      "totalUsers": 11103,
-      "totalTrafficBytes": 3704197946242,
-      "operator": "DESKTOP-IU9Q2PB's owner",
+      "totalUsers": 101465,
+      "totalTrafficBytes": 13241423340959,
+      "operator": "DESKTOP-LFM94PE's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "126.54.8.57",
-          "port": 1592,
+          "host": "126.86.31.151",
+          "port": 1847,
           "protocol": null
         }
       ],
@@ -2208,10 +1542,47 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0059-JP-vpn751119958.ovpn",
-          "host": "126.54.8.57",
-          "port": 1592,
+          "file": "ovpn/0041-JP-vpn722645980.ovpn",
+          "host": "126.86.31.151",
+          "port": 1847,
           "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "197b3826ead06c44",
+      "name": "vpn986625779",
+      "hostname": "vpn986625779",
+      "ip": "171.4.229.45",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "score": 799140,
+      "pingMs": 16,
+      "speedMbps": 27.874,
+      "sessions": 81,
+      "uptimeMinutes": 146107637,
+      "totalUsers": 172067,
+      "totalTrafficBytes": 44524230006011,
+      "operator": "DESKTOP-NON5406's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "171.4.229.45",
+          "port": 1939,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0042-TH-vpn986625779.ovpn",
+          "host": "171.4.229.45",
+          "port": 1939,
+          "protocol": "udp"
         }
       ]
     },
@@ -2222,7 +1593,7 @@
       "ip": "124.212.102.156",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 796822,
+      "score": 790735,
       "pingMs": 21,
       "speedMbps": 115.57,
       "sessions": 11,
@@ -2232,7 +1603,7 @@
       "operator": "FUJITSU-PC's owner",
       "logType": "2weeks",
       "message": "",
-      "source": "official-http",
+      "source": "official-https",
       "remotes": [
         {
           "host": "124.212.102.156",
@@ -2245,7 +1616,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0060-JP-vpn857079012.ovpn",
+          "file": "ovpn/0043-JP-vpn857079012.ovpn",
           "host": "124.212.102.156",
           "port": 1622,
           "protocol": "tcp"
@@ -2253,322 +1624,26 @@
       ]
     },
     {
-      "id": "8ceb309c2beb9d95",
-      "name": "vpn313136357",
-      "hostname": "vpn313136357",
-      "ip": "113.150.164.9",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 759686,
-      "pingMs": 3,
-      "speedMbps": 827.826,
-      "sessions": 12,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 77169,
-      "totalTrafficBytes": 20051794726796,
-      "operator": "Yotsukun's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "113.150.164.9",
-          "port": 1253,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0061-JP-vpn313136357.ovpn",
-          "host": "113.150.164.9",
-          "port": 1253,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "9c1c09cd5ebd4a1f",
-      "name": "vpn532221228",
-      "hostname": "vpn532221228",
-      "ip": "110.15.34.238",
+      "id": "aa02c6f094b56f51",
+      "name": "vpn419698713",
+      "hostname": "vpn419698713",
+      "ip": "220.77.109.33",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 759420,
-      "pingMs": 34,
-      "speedMbps": 95.389,
-      "sessions": 11,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 6544,
-      "totalTrafficBytes": 671543671214,
-      "operator": "ggamenet's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "110.15.34.238",
-          "port": 1930,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0062-KR-vpn532221228.ovpn",
-          "host": "110.15.34.238",
-          "port": 1930,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "66af581b9c9809b6",
-      "name": "vpn110060260",
-      "hostname": "vpn110060260",
-      "ip": "59.135.173.211",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 758744,
-      "pingMs": 21,
-      "speedMbps": 178.208,
-      "sessions": 19,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 612281,
-      "totalTrafficBytes": 51474091474003,
-      "operator": "yuu-ノートBTOPC's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "59.135.173.211",
-          "port": 1571,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0063-JP-vpn110060260.ovpn",
-          "host": "59.135.173.211",
-          "port": 1571,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "701c78988eef9ced",
-      "name": "vpn418191368",
-      "hostname": "vpn418191368",
-      "ip": "220.26.54.127",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 750453,
-      "pingMs": 5,
-      "speedMbps": 2237.069,
-      "sessions": 23,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 109516,
-      "totalTrafficBytes": 37289941075000,
-      "operator": "ikeda1123's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "220.26.54.127",
-          "port": 1772,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0064-JP-vpn418191368.ovpn",
-          "host": "220.26.54.127",
-          "port": 1772,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "f7a78f651fb70dcb",
-      "name": "vpn522086169",
-      "hostname": "vpn522086169",
-      "ip": "119.175.138.113",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 749579,
-      "pingMs": 30,
-      "speedMbps": 628.67,
-      "sessions": 25,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 85440,
-      "totalTrafficBytes": 10590537218056,
-      "operator": "DESKTOP-B3IT46F's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "119.175.138.113",
-          "port": 1993,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0065-JP-vpn522086169.ovpn",
-          "host": "119.175.138.113",
-          "port": 1993,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "89d2bee6811c10cc",
-      "name": "vpn521158173",
-      "hostname": "vpn521158173",
-      "ip": "27.130.83.142",
-      "country": "Thailand",
-      "countryCode": "TH",
-      "score": 745624,
-      "pingMs": 7,
-      "speedMbps": 92.137,
-      "sessions": 12,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 92281,
-      "totalTrafficBytes": 14784148075406,
-      "operator": "DESKTOP-E14OM7I's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "27.130.83.142",
-          "port": 1254,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0066-TH-vpn521158173.ovpn",
-          "host": "27.130.83.142",
-          "port": 1254,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "a844ec867b20018c",
-      "name": "vpn656654033",
-      "hostname": "vpn656654033",
-      "ip": "220.77.248.111",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 742018,
-      "pingMs": 33,
-      "speedMbps": 367.228,
+      "score": 787970,
+      "pingMs": 25,
+      "speedMbps": 97.398,
       "sessions": 8,
       "uptimeMinutes": 146107637,
-      "totalUsers": 5584,
-      "totalTrafficBytes": 909731256417,
-      "operator": "JC's owner",
+      "totalUsers": 114926,
+      "totalTrafficBytes": 17699657867502,
+      "operator": "DESKTOP-TCRUM6Q's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "220.77.248.111",
-          "port": 1318,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0067-KR-vpn656654033.ovpn",
-          "host": "220.77.248.111",
-          "port": 1318,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "12392da7e79f3121",
-      "name": "vpn966880991",
-      "hostname": "vpn966880991",
-      "ip": "153.145.144.225",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 741210,
-      "pingMs": 9,
-      "speedMbps": 280.936,
-      "sessions": 15,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 62968,
-      "totalTrafficBytes": 15063271816225,
-      "operator": "OWNER's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "153.145.144.225",
-          "port": 1870,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0068-JP-vpn966880991.ovpn",
-          "host": "153.145.144.225",
-          "port": 1870,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "fee9ed338791e3b9",
-      "name": "vpn588598223",
-      "hostname": "vpn588598223",
-      "ip": "112.184.241.71",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 736079,
-      "pingMs": 36,
-      "speedMbps": 106.658,
-      "sessions": 2,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 39176,
-      "totalTrafficBytes": 3174393976007,
-      "operator": "DESKTOP-UBAPNJR's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "112.184.241.71",
+          "host": "220.77.109.33",
           "port": 995,
           "protocol": null
         }
@@ -2578,220 +1653,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0069-KR-vpn588598223.ovpn",
-          "host": "112.184.241.71",
+          "file": "ovpn/0044-KR-vpn419698713.ovpn",
+          "host": "220.77.109.33",
           "port": 995,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "1ca2b09a5db06a89",
-      "name": "vpn765205372",
-      "hostname": "vpn765205372",
-      "ip": "122.222.80.244",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 725250,
-      "pingMs": 32,
-      "speedMbps": 185.01,
-      "sessions": 3,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 19095,
-      "totalTrafficBytes": 1909702980537,
-      "operator": "DESKTOP-LTQD1K7's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "122.222.80.244",
-          "port": 1815,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0070-JP-vpn765205372.ovpn",
-          "host": "122.222.80.244",
-          "port": 1815,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "78f1f88a5ac299a5",
-      "name": "vpn270250281",
-      "hostname": "vpn270250281",
-      "ip": "133.32.233.45",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 720624,
-      "pingMs": 8,
-      "speedMbps": 740.991,
-      "sessions": 9,
-      "uptimeMinutes": 72220637,
-      "totalUsers": 5607,
-      "totalTrafficBytes": 647452012165,
-      "operator": "DESKTOP-VNPTCO9's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "133.32.233.45",
-          "port": 7608,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0071-JP-vpn270250281.ovpn",
-          "host": "133.32.233.45",
-          "port": 7608,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "26f3f1150eaa3714",
-      "name": "vpn842207532",
-      "hostname": "vpn842207532",
-      "ip": "119.224.221.130",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 716786,
-      "pingMs": 10,
-      "speedMbps": 153.684,
-      "sessions": 6,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 15602,
-      "totalTrafficBytes": 873650203222,
-      "operator": "DESKTOP-8K467RL's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "119.224.221.130",
-          "port": 1462,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0072-JP-vpn842207532.ovpn",
-          "host": "119.224.221.130",
-          "port": 1462,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "a3bc20594cc18587",
-      "name": "vpn785696764",
-      "hostname": "vpn785696764",
-      "ip": "119.240.69.114",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 713075,
-      "pingMs": 6,
-      "speedMbps": 191.167,
-      "sessions": 2,
-      "uptimeMinutes": 72220637,
-      "totalUsers": 9567,
-      "totalTrafficBytes": 1099966321854,
-      "operator": "DESKTOP-ILV4366's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "119.240.69.114",
-          "port": 1465,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0073-JP-vpn785696764.ovpn",
-          "host": "119.240.69.114",
-          "port": 1465,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "3d89f2afb3ba555c",
-      "name": "vpn731000406",
-      "hostname": "vpn731000406",
-      "ip": "177.152.169.192",
-      "country": "Brazil",
-      "countryCode": "BR",
-      "score": 708898,
-      "pingMs": 13,
-      "speedMbps": 86.138,
-      "sessions": 19,
-      "uptimeMinutes": 60668637,
-      "totalUsers": 943,
-      "totalTrafficBytes": 93759321891,
-      "operator": "DESKTOP-KHG3VBO's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "177.152.169.192",
-          "port": 1311,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0074-BR-vpn731000406.ovpn",
-          "host": "177.152.169.192",
-          "port": 1311,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "7ad244bac634749a",
-      "name": "vpn940711939",
-      "hostname": "vpn940711939",
-      "ip": "1.241.129.177",
+      "id": "7a73d32b93271d8b",
+      "name": "vpn508092890",
+      "hostname": "vpn508092890",
+      "ip": "58.123.250.75",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 708553,
+      "score": 772849,
       "pingMs": 34,
-      "speedMbps": 83.65,
-      "sessions": 1,
+      "speedMbps": 88.723,
+      "sessions": 6,
       "uptimeMinutes": 146107637,
-      "totalUsers": 201903,
-      "totalTrafficBytes": 25633799799018,
-      "operator": "DESKTOP-CIU2S1L's owner",
+      "totalUsers": 160286,
+      "totalTrafficBytes": 7715948778135,
+      "operator": "DESKTOP-GL6O5PO's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "1.241.129.177",
-          "port": 1950,
+          "host": "58.123.250.75",
+          "port": 1401,
           "protocol": null
         }
       ],
@@ -2800,35 +1690,109 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0075-KR-vpn940711939.ovpn",
-          "host": "1.241.129.177",
-          "port": 1950,
+          "file": "ovpn/0045-KR-vpn508092890.ovpn",
+          "host": "58.123.250.75",
+          "port": 1401,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "b90b686f91bcae65",
-      "name": "vpn728489552",
-      "hostname": "vpn728489552",
-      "ip": "118.241.5.212",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 705886,
-      "pingMs": 2,
-      "speedMbps": 75.99,
-      "sessions": 41,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 2099,
-      "totalTrafficBytes": 203535848537,
-      "operator": "DESKTOP-060D0EF's owner",
+      "id": "af277c4376dedb9f",
+      "name": "vpn840968571",
+      "hostname": "vpn840968571",
+      "ip": "180.189.92.104",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 754999,
+      "pingMs": 33,
+      "speedMbps": 85.085,
+      "sessions": 1,
+      "uptimeMinutes": 161694637,
+      "totalUsers": 2035,
+      "totalTrafficBytes": 150869543983,
+      "operator": "DESKTOP-A7K2UEB's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "118.241.5.212",
-          "port": 1195,
+          "host": "180.189.92.104",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0046-KR-vpn840968571.ovpn",
+          "host": "180.189.92.104",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "8136e7b63b18da96",
+      "name": "vpn222647392",
+      "hostname": "vpn222647392",
+      "ip": "219.62.60.95",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 751807,
+      "pingMs": 3,
+      "speedMbps": 933.736,
+      "sessions": 55,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 64887,
+      "totalTrafficBytes": 20939939799734,
+      "operator": "86AMAAH22's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "219.62.60.95",
+          "port": 1835,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0047-JP-vpn222647392.ovpn",
+          "host": "219.62.60.95",
+          "port": 1835,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "e644f13251e82af6",
+      "name": "vpn997543043",
+      "hostname": "vpn997543043",
+      "ip": "133.32.219.138",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 751173,
+      "pingMs": 4,
+      "speedMbps": 665.162,
+      "sessions": 8,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 3302,
+      "totalTrafficBytes": 339087905003,
+      "operator": "DESKTOP-OG0MLU9's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "133.32.219.138",
+          "port": 7146,
           "protocol": null
         }
       ],
@@ -2837,146 +1801,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0076-JP-vpn728489552.ovpn",
-          "host": "118.241.5.212",
-          "port": 1195,
+          "file": "ovpn/0048-JP-vpn997543043.ovpn",
+          "host": "133.32.219.138",
+          "port": 7146,
           "protocol": "udp"
         }
       ]
     },
     {
-      "id": "b5b5b60a2627db2a",
-      "name": "vpn841769961",
-      "hostname": "vpn841769961",
-      "ip": "218.153.200.240",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 702118,
-      "pingMs": 31,
-      "speedMbps": 429.053,
-      "sessions": 17,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 133573,
-      "totalTrafficBytes": 18556223604726,
-      "operator": "DESKTOP-LGSU9ET's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "218.153.200.240",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0077-KR-vpn841769961.ovpn",
-          "host": "218.153.200.240",
-          "port": 995,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "726ada856e539f18",
-      "name": "vpn312291996",
-      "hostname": "vpn312291996",
-      "ip": "220.92.176.236",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 701201,
-      "pingMs": 23,
-      "speedMbps": 79.307,
-      "sessions": 9,
-      "uptimeMinutes": 72220637,
-      "totalUsers": 7213,
-      "totalTrafficBytes": 441587385677,
-      "operator": "DESKTOP-KT5C5LM's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "220.92.176.236",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0078-KR-vpn312291996.ovpn",
-          "host": "220.92.176.236",
-          "port": 995,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "1618ad8acd023ab2",
-      "name": "vpn857839116",
-      "hostname": "vpn857839116",
-      "ip": "49.165.22.76",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 691389,
-      "pingMs": 39,
-      "speedMbps": 466.778,
-      "sessions": 14,
-      "uptimeMinutes": 146107637,
-      "totalUsers": 470,
-      "totalTrafficBytes": 72993574589,
-      "operator": "DESKTOP-TI95A1L's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "49.165.22.76",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0079-KR-vpn857839116.ovpn",
-          "host": "49.165.22.76",
-          "port": 995,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "2d4b74ebbc3efc28",
-      "name": "vpn165600618",
-      "hostname": "vpn165600618",
-      "ip": "61.21.196.8",
+      "id": "8bcf4176c17796e3",
+      "name": "vpn484185679",
+      "hostname": "vpn484185679",
+      "ip": "114.183.172.26",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 689160,
-      "pingMs": 15,
-      "speedMbps": 671.162,
-      "sessions": 19,
-      "uptimeMinutes": 60668637,
-      "totalUsers": 15066,
-      "totalTrafficBytes": 3031688886804,
-      "operator": "Aqwert's owner",
+      "score": 739301,
+      "pingMs": 21,
+      "speedMbps": 308.064,
+      "sessions": 11,
+      "uptimeMinutes": 72220637,
+      "totalUsers": 6302,
+      "totalTrafficBytes": 1041917895630,
+      "operator": "DESKTOP-9PRRAM7's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "61.21.196.8",
-          "port": 1392,
+          "host": "114.183.172.26",
+          "port": 1917,
           "protocol": null
         }
       ],
@@ -2985,9 +1838,157 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0080-JP-vpn165600618.ovpn",
-          "host": "61.21.196.8",
-          "port": 1392,
+          "file": "ovpn/0049-JP-vpn484185679.ovpn",
+          "host": "114.183.172.26",
+          "port": 1917,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "24d69dabece9f031",
+      "name": "vpn696655782",
+      "hostname": "vpn696655782",
+      "ip": "218.237.79.121",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 725770,
+      "pingMs": 32,
+      "speedMbps": 82.192,
+      "sessions": 8,
+      "uptimeMinutes": 146107637,
+      "totalUsers": 8222,
+      "totalTrafficBytes": 556887039042,
+      "operator": "DESKTOP-2OPJPS0's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "218.237.79.121",
+          "port": 1934,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0050-KR-vpn696655782.ovpn",
+          "host": "218.237.79.121",
+          "port": 1934,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "eedb96b083e2b839",
+      "name": "vpn255867577",
+      "hostname": "vpn255867577",
+      "ip": "222.9.192.2",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 717608,
+      "pingMs": 11,
+      "speedMbps": 869.282,
+      "sessions": 4,
+      "uptimeMinutes": 60668637,
+      "totalUsers": 34668,
+      "totalTrafficBytes": 4960960644902,
+      "operator": "BONFIRE-NOFAN's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "222.9.192.2",
+          "port": 1234,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0051-JP-vpn255867577.ovpn",
+          "host": "222.9.192.2",
+          "port": 1234,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "825c18a0e465916c",
+      "name": "vpn536671046",
+      "hostname": "vpn536671046",
+      "ip": "126.125.86.43",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 715622,
+      "pingMs": 6,
+      "speedMbps": 383.394,
+      "sessions": 4,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 34681,
+      "totalTrafficBytes": 3414584380200,
+      "operator": "DESKTOP-L2OPQMH's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "126.125.86.43",
+          "port": 1301,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0052-JP-vpn536671046.ovpn",
+          "host": "126.125.86.43",
+          "port": 1301,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "c8db01c104b42983",
+      "name": "vpn897452363",
+      "hostname": "vpn897452363",
+      "ip": "126.111.60.249",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 714886,
+      "pingMs": 4,
+      "speedMbps": 156.225,
+      "sessions": 11,
+      "uptimeMinutes": 72220637,
+      "totalUsers": 25213,
+      "totalTrafficBytes": 3029644226528,
+      "operator": "LENGOCNAM's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "126.111.60.249",
+          "port": 1426,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0053-JP-vpn897452363.ovpn",
+          "host": "126.111.60.249",
+          "port": 1426,
           "protocol": "tcp"
         }
       ]
@@ -2999,7 +2000,7 @@
       "ip": "113.154.223.222",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 688397,
+      "score": 692611,
       "pingMs": 10,
       "speedMbps": 70.337,
       "sessions": 6,
@@ -3022,7 +2023,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0081-JP-vpn200708157.ovpn",
+          "file": "ovpn/0054-JP-vpn200708157.ovpn",
           "host": "113.154.223.222",
           "port": 1498,
           "protocol": "tcp"
@@ -3030,26 +2031,26 @@
       ]
     },
     {
-      "id": "e57bf69b9e787889",
-      "name": "vpn783706956",
-      "hostname": "vpn783706956",
-      "ip": "14.33.25.154",
+      "id": "de17c264d755f500",
+      "name": "vpn338706179",
+      "hostname": "vpn338706179",
+      "ip": "116.126.253.211",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 675539,
-      "pingMs": 33,
-      "speedMbps": 312.405,
-      "sessions": 6,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 97566,
-      "totalTrafficBytes": 12381903560088,
-      "operator": "DESKTOP-E3GT8VV's owner",
+      "score": 689739,
+      "pingMs": 32,
+      "speedMbps": 849.523,
+      "sessions": 33,
+      "uptimeMinutes": 72220637,
+      "totalUsers": 346118,
+      "totalTrafficBytes": 46523389536714,
+      "operator": "DESKTOP-IF7MUGI's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "14.33.25.154",
+          "host": "116.126.253.211",
           "port": 995,
           "protocol": null
         }
@@ -3059,35 +2060,109 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0082-KR-vpn783706956.ovpn",
-          "host": "14.33.25.154",
+          "file": "ovpn/0055-KR-vpn338706179.ovpn",
+          "host": "116.126.253.211",
           "port": 995,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "e4674fa0e34e31f7",
-      "name": "vpn230941294",
-      "hostname": "vpn230941294",
-      "ip": "180.25.196.10",
+      "id": "54ecee0caeea361d",
+      "name": "vpn507376191",
+      "hostname": "vpn507376191",
+      "ip": "211.224.178.39",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 684512,
+      "pingMs": 30,
+      "speedMbps": 626.195,
+      "sessions": 1,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 3950,
+      "totalTrafficBytes": 714446293655,
+      "operator": "DESKTOP-RIFSFS3's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "211.224.178.39",
+          "port": 1865,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0056-KR-vpn507376191.ovpn",
+          "host": "211.224.178.39",
+          "port": 1865,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "1036f77957b45517",
+      "name": "vpn474310773",
+      "hostname": "vpn474310773",
+      "ip": "222.121.123.31",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 683968,
+      "pingMs": 32,
+      "speedMbps": 380.22,
+      "sessions": 7,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 5235,
+      "totalTrafficBytes": 776580132508,
+      "operator": "arona's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "222.121.123.31",
+          "port": 1349,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0057-KR-vpn474310773.ovpn",
+          "host": "222.121.123.31",
+          "port": 1349,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "62dd6231f90e4c52",
+      "name": "vpn350126322",
+      "hostname": "vpn350126322",
+      "ip": "153.200.188.5",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 675452,
-      "pingMs": 14,
-      "speedMbps": 89.685,
-      "sessions": 7,
+      "score": 677150,
+      "pingMs": 17,
+      "speedMbps": 405.711,
+      "sessions": 4,
       "uptimeMinutes": 60668637,
-      "totalUsers": 8829,
-      "totalTrafficBytes": 632028142462,
-      "operator": "16-ay0001TU's owner",
+      "totalUsers": 53219,
+      "totalTrafficBytes": 3433680730675,
+      "operator": "D583's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "180.25.196.10",
-          "port": 1976,
+          "host": "153.200.188.5",
+          "port": 1865,
           "protocol": null
         }
       ],
@@ -3096,35 +2171,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0083-JP-vpn230941294.ovpn",
-          "host": "180.25.196.10",
-          "port": 1976,
+          "file": "ovpn/0058-JP-vpn350126322.ovpn",
+          "host": "153.200.188.5",
+          "port": 1865,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "1650c8cd3ee7386b",
-      "name": "vpn151921331",
-      "hostname": "vpn151921331",
-      "ip": "211.105.59.154",
+      "id": "685a4e10d4b92289",
+      "name": "vpn231235504",
+      "hostname": "vpn231235504",
+      "ip": "220.94.12.20",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 673952,
-      "pingMs": 31,
-      "speedMbps": 73.788,
+      "score": 675488,
+      "pingMs": 26,
+      "speedMbps": 83.944,
       "sessions": 7,
       "uptimeMinutes": 72220637,
-      "totalUsers": 11966,
-      "totalTrafficBytes": 890751387738,
-      "operator": "tmdgnl's owner",
+      "totalUsers": 176721,
+      "totalTrafficBytes": 26194215766597,
+      "operator": "pavlov's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "211.105.59.154",
-          "port": 1245,
+          "host": "220.94.12.20",
+          "port": 1407,
           "protocol": null
         }
       ],
@@ -3133,83 +2208,9 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0084-KR-vpn151921331.ovpn",
-          "host": "211.105.59.154",
-          "port": 1245,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "aa8485b601f3a8b1",
-      "name": "vpn382183856",
-      "hostname": "vpn382183856",
-      "ip": "59.5.58.98",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 666578,
-      "pingMs": 27,
-      "speedMbps": 387.522,
-      "sessions": 4,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 29546,
-      "totalTrafficBytes": 1958690184323,
-      "operator": "DESKTOP-J52TJBI's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "59.5.58.98",
-          "port": 1895,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0085-KR-vpn382183856.ovpn",
-          "host": "59.5.58.98",
-          "port": 1895,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "1318167bb02fda3e",
-      "name": "vpn745024155",
-      "hostname": "vpn745024155",
-      "ip": "14.34.38.20",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 664924,
-      "pingMs": 30,
-      "speedMbps": 303.408,
-      "sessions": 9,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 355157,
-      "totalTrafficBytes": 27952216212064,
-      "operator": "DESKTOP-7HKKLNI's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "14.34.38.20",
-          "port": 995,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0086-KR-vpn745024155.ovpn",
-          "host": "14.34.38.20",
-          "port": 995,
+          "file": "ovpn/0059-KR-vpn231235504.ovpn",
+          "host": "220.94.12.20",
+          "port": 1407,
           "protocol": "tcp"
         }
       ]
@@ -3221,7 +2222,7 @@
       "ip": "218.147.205.135",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 663978,
+      "score": 666358,
       "pingMs": 31,
       "speedMbps": 148.852,
       "sessions": 8,
@@ -3244,7 +2245,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0087-KR-vpn237755744.ovpn",
+          "file": "ovpn/0060-KR-vpn237755744.ovpn",
           "host": "218.147.205.135",
           "port": 995,
           "protocol": "tcp"
@@ -3252,101 +2253,27 @@
       ]
     },
     {
-      "id": "361cf660915cc16a",
-      "name": "vpn819358376",
-      "hostname": "vpn819358376",
-      "ip": "175.122.73.80",
+      "id": "51b7469d9fa9552b",
+      "name": "vpn767234801",
+      "hostname": "vpn767234801",
+      "ip": "203.254.127.203",
       "country": "Korea Republic of",
       "countryCode": "KR",
-      "score": 654520,
-      "pingMs": 41,
-      "speedMbps": 377.722,
-      "sessions": 33,
-      "uptimeMinutes": 72220637,
-      "totalUsers": 1183277,
-      "totalTrafficBytes": 137928346139113,
-      "operator": "DESKTOP-00NODBN's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "175.122.73.80",
-          "port": 1298,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0088-KR-vpn819358376.ovpn",
-          "host": "175.122.73.80",
-          "port": 1298,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "0f1ab03a8737909e",
-      "name": "vpn760341514",
-      "hostname": "vpn760341514",
-      "ip": "125.137.180.146",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 649809,
-      "pingMs": 28,
-      "speedMbps": 466.814,
-      "sessions": 4,
-      "uptimeMinutes": 83423637,
-      "totalUsers": 1936,
-      "totalTrafficBytes": 167611409300,
-      "operator": "DESKTOP-GCQR9U1's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "125.137.180.146",
-          "port": 1783,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0089-KR-vpn760341514.ovpn",
-          "host": "125.137.180.146",
-          "port": 1783,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "a6745de4b95e29ef",
-      "name": "vpn994788542",
-      "hostname": "vpn994788542",
-      "ip": "58.230.56.95",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 646989,
+      "score": 664808,
       "pingMs": 32,
-      "speedMbps": 281.827,
+      "speedMbps": 318.471,
       "sessions": 9,
-      "uptimeMinutes": 72220637,
-      "totalUsers": 55757,
-      "totalTrafficBytes": 7443542657993,
-      "operator": "DESKTOP-G1LDVAJ's owner",
+      "uptimeMinutes": 83423637,
+      "totalUsers": 4454,
+      "totalTrafficBytes": 555956376051,
+      "operator": "DESKTOP-AN3K5LK's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "58.230.56.95",
-          "port": 995,
+          "host": "203.254.127.203",
+          "port": 1358,
           "protocol": null
         }
       ],
@@ -3355,109 +2282,35 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0090-KR-vpn994788542.ovpn",
-          "host": "58.230.56.95",
-          "port": 995,
+          "file": "ovpn/0061-KR-vpn767234801.ovpn",
+          "host": "203.254.127.203",
+          "port": 1358,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "4f195b3fe768d26e",
-      "name": "vpn394757206",
-      "hostname": "vpn394757206",
-      "ip": "126.41.243.20",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 642542,
-      "pingMs": 4,
-      "speedMbps": 581.52,
-      "sessions": 18,
-      "uptimeMinutes": 1000,
-      "totalUsers": 26143,
-      "totalTrafficBytes": 4227662478990,
-      "operator": "MINHNHATCOM's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "126.41.243.20",
-          "port": 1726,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0091-JP-vpn394757206.ovpn",
-          "host": "126.41.243.20",
-          "port": 1726,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "c10ec540e98dde68",
-      "name": "vpn286302575",
-      "hostname": "vpn286302575",
-      "ip": "184.82.92.20",
-      "country": "Thailand",
-      "countryCode": "TH",
-      "score": 639566,
-      "pingMs": 10,
-      "speedMbps": 342.34,
-      "sessions": 24,
-      "uptimeMinutes": 1000,
-      "totalUsers": 280468,
-      "totalTrafficBytes": 82930459723213,
-      "operator": "DESKTOP-E4Q4FNM's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "184.82.92.20",
-          "port": 1684,
-          "protocol": null
-        }
-      ],
-      "protocol": "tcp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0092-TH-vpn286302575.ovpn",
-          "host": "184.82.92.20",
-          "port": 1684,
-          "protocol": "tcp"
-        }
-      ]
-    },
-    {
-      "id": "506c1d5e39c54cc4",
-      "name": "vpn549771002",
-      "hostname": "vpn549771002",
-      "ip": "126.58.192.212",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 637860,
-      "pingMs": 7,
-      "speedMbps": 528.895,
+      "id": "468d7ed2a997d155",
+      "name": "vpn842523171",
+      "hostname": "vpn842523171",
+      "ip": "183.102.100.152",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 662497,
+      "pingMs": 28,
+      "speedMbps": 185.112,
       "sessions": 0,
-      "uptimeMinutes": 1000,
-      "totalUsers": 161,
-      "totalTrafficBytes": 10972367028,
-      "operator": "初期化めんどくさかったね's owner",
+      "uptimeMinutes": 72220637,
+      "totalUsers": 67574,
+      "totalTrafficBytes": 8667173245659,
+      "operator": "DESKTOP-R8RL50F's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "126.58.192.212",
-          "port": 1288,
+          "host": "183.102.100.152",
+          "port": 995,
           "protocol": null
         }
       ],
@@ -3466,35 +2319,146 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0093-JP-vpn549771002.ovpn",
-          "host": "126.58.192.212",
-          "port": 1288,
+          "file": "ovpn/0062-KR-vpn842523171.ovpn",
+          "host": "183.102.100.152",
+          "port": 995,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "3e61fd630f2fb9a9",
-      "name": "vpn146161590",
-      "hostname": "vpn146161590",
-      "ip": "49.228.179.42",
-      "country": "Thailand",
-      "countryCode": "TH",
-      "score": 635789,
-      "pingMs": 14,
-      "speedMbps": 435.33,
-      "sessions": 11,
-      "uptimeMinutes": 0,
-      "totalUsers": 548359,
-      "totalTrafficBytes": 128735891374263,
-      "operator": "DESKTOP-M8S9Q78's owner",
+      "id": "597bc1c5e4587056",
+      "name": "vpn246359863",
+      "hostname": "vpn246359863",
+      "ip": "70.51.243.177",
+      "country": "Canada",
+      "countryCode": "CA",
+      "score": 647334,
+      "pingMs": 6,
+      "speedMbps": 206.472,
+      "sessions": 40,
+      "uptimeMinutes": 1000,
+      "totalUsers": 1273,
+      "totalTrafficBytes": 70282270741,
+      "operator": "DESKTOP-4ALO4JN's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "49.228.179.42",
-          "port": 1605,
+          "host": "70.51.243.177",
+          "port": 1895,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0063-CA-vpn246359863.ovpn",
+          "host": "70.51.243.177",
+          "port": 1895,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "f38acd8b0e38b53a",
+      "name": "vpn384166385",
+      "hostname": "vpn384166385",
+      "ip": "39.110.20.185",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 640660,
+      "pingMs": 6,
+      "speedMbps": 246.741,
+      "sessions": 13,
+      "uptimeMinutes": 1000,
+      "totalUsers": 2943,
+      "totalTrafficBytes": 442463120154,
+      "operator": "DESKTOP-K7I9ND9's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "39.110.20.185",
+          "port": 1544,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0064-JP-vpn384166385.ovpn",
+          "host": "39.110.20.185",
+          "port": 1544,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "0005dc073b060d44",
+      "name": "vpn577900425",
+      "hostname": "vpn577900425",
+      "ip": "116.120.81.21",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 634846,
+      "pingMs": 32,
+      "speedMbps": 801.558,
+      "sessions": 8,
+      "uptimeMinutes": 60668637,
+      "totalUsers": 8982,
+      "totalTrafficBytes": 1448717752074,
+      "operator": "JONGHYUN-PC's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "116.120.81.21",
+          "port": 1487,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0065-KR-vpn577900425.ovpn",
+          "host": "116.120.81.21",
+          "port": 1487,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "03e677419aa8e8ca",
+      "name": "vpn157349795",
+      "hostname": "vpn157349795",
+      "ip": "217.178.132.44",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 633051,
+      "pingMs": 14,
+      "speedMbps": 80.049,
+      "sessions": 16,
+      "uptimeMinutes": 1000,
+      "totalUsers": 32765,
+      "totalTrafficBytes": 5025141362600,
+      "operator": "maharu-PC's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "217.178.132.44",
+          "port": 25345,
           "protocol": null
         }
       ],
@@ -3503,35 +2467,109 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0094-TH-vpn146161590.ovpn",
-          "host": "49.228.179.42",
-          "port": 1605,
+          "file": "ovpn/0066-JP-vpn157349795.ovpn",
+          "host": "217.178.132.44",
+          "port": 25345,
           "protocol": "udp"
         }
       ]
     },
     {
-      "id": "e46584a246dde7ef",
-      "name": "vpn600092482",
-      "hostname": "vpn600092482",
-      "ip": "128.134.100.226",
-      "country": "Korea Republic of",
-      "countryCode": "KR",
-      "score": 630628,
-      "pingMs": 36,
-      "speedMbps": 89.207,
-      "sessions": 2,
-      "uptimeMinutes": 60668637,
-      "totalUsers": 5093,
-      "totalTrafficBytes": 362235569382,
-      "operator": "DESKTOP-4ISGARU's owner",
+      "id": "b66685401456a5ff",
+      "name": "vpn844268978",
+      "hostname": "vpn844268978",
+      "ip": "27.130.105.110",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "score": 632450,
+      "pingMs": 5,
+      "speedMbps": 182.528,
+      "sessions": 25,
+      "uptimeMinutes": 1000,
+      "totalUsers": 60616,
+      "totalTrafficBytes": 18299488697074,
+      "operator": "YK1's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "128.134.100.226",
-          "port": 1948,
+          "host": "27.130.105.110",
+          "port": 1292,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0067-TH-vpn844268978.ovpn",
+          "host": "27.130.105.110",
+          "port": 1292,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "8607688e1a69d661",
+      "name": "vpn205082667",
+      "hostname": "vpn205082667",
+      "ip": "131.196.205.177",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "score": 632214,
+      "pingMs": 13,
+      "speedMbps": 69.98,
+      "sessions": 20,
+      "uptimeMinutes": 1000,
+      "totalUsers": 8229,
+      "totalTrafficBytes": 776144691348,
+      "operator": "DESKTOP-F30I02T's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "131.196.205.177",
+          "port": 60850,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0068-BR-vpn205082667.ovpn",
+          "host": "131.196.205.177",
+          "port": 60850,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "594f0afc10df0d6b",
+      "name": "vpn333672062",
+      "hostname": "vpn333672062",
+      "ip": "14.50.208.209",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 625965,
+      "pingMs": 34,
+      "speedMbps": 251.37,
+      "sessions": 9,
+      "uptimeMinutes": 60668637,
+      "totalUsers": 6492,
+      "totalTrafficBytes": 547564324057,
+      "operator": "DESKTOP-BCIERBR's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "14.50.208.209",
+          "port": 1769,
           "protocol": null
         }
       ],
@@ -3540,35 +2578,183 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0095-KR-vpn600092482.ovpn",
-          "host": "128.134.100.226",
-          "port": 1948,
+          "file": "ovpn/0069-KR-vpn333672062.ovpn",
+          "host": "14.50.208.209",
+          "port": 1769,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "9ee166b63da0d834",
-      "name": "vpn569190458",
-      "hostname": "vpn569190458",
-      "ip": "60.42.49.51",
+      "id": "d1c16c3dcc2be679",
+      "name": "vpn999844931",
+      "hostname": "vpn999844931",
+      "ip": "218.146.169.16",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 625486,
+      "pingMs": 22,
+      "speedMbps": 82.175,
+      "sessions": 2,
+      "uptimeMinutes": 1000,
+      "totalUsers": 3996,
+      "totalTrafficBytes": 510121921075,
+      "operator": "DESKTOP-KD6VJRU's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "218.146.169.16",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0070-KR-vpn999844931.ovpn",
+          "host": "218.146.169.16",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "adf6478253ab24a5",
+      "name": "vpn134266324",
+      "hostname": "vpn134266324",
+      "ip": "124.211.152.178",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 630038,
-      "pingMs": 17,
-      "speedMbps": 251.603,
+      "score": 624125,
+      "pingMs": 6,
+      "speedMbps": 377.599,
+      "sessions": 1,
+      "uptimeMinutes": 1000,
+      "totalUsers": 10266,
+      "totalTrafficBytes": 800536304489,
+      "operator": "DESKTOP-1IM1UJG's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "124.211.152.178",
+          "port": 1635,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0071-JP-vpn134266324.ovpn",
+          "host": "124.211.152.178",
+          "port": 1635,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "4585eef22d7096e6",
+      "name": "vpn963318034",
+      "hostname": "vpn963318034",
+      "ip": "95.110.107.172",
+      "country": "Russian Federation",
+      "countryCode": "RU",
+      "score": 623888,
+      "pingMs": 37,
+      "speedMbps": 34.383,
+      "sessions": 4,
+      "uptimeMinutes": 60668637,
+      "totalUsers": 1842,
+      "totalTrafficBytes": 111990553819,
+      "operator": "xpc's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "95.110.107.172",
+          "port": 1648,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0072-RU-vpn963318034.ovpn",
+          "host": "95.110.107.172",
+          "port": 1648,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "62f4f1c511992a84",
+      "name": "vpn428888787",
+      "hostname": "vpn428888787",
+      "ip": "183.103.132.202",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 621768,
+      "pingMs": 21,
+      "speedMbps": 388.509,
+      "sessions": 8,
+      "uptimeMinutes": 1000,
+      "totalUsers": 48809,
+      "totalTrafficBytes": 8438660683986,
+      "operator": "DESKTOP-K4CGN38's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "183.103.132.202",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0073-KR-vpn428888787.ovpn",
+          "host": "183.103.132.202",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "3bbca0462d69a59c",
+      "name": "vpn334153435",
+      "hostname": "vpn334153435",
+      "ip": "118.87.121.178",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 618529,
+      "pingMs": 19,
+      "speedMbps": 156.272,
       "sessions": 5,
       "uptimeMinutes": 1000,
-      "totalUsers": 67288,
-      "totalTrafficBytes": 5664152696751,
-      "operator": "DESKTOP-IL55L0M's owner",
+      "totalUsers": 56817,
+      "totalTrafficBytes": 3124464360102,
+      "operator": "TOSHIKI-PC's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "60.42.49.51",
-          "port": 1513,
+          "host": "118.87.121.178",
+          "port": 1217,
           "protocol": null
         }
       ],
@@ -3577,84 +2763,84 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0096-JP-vpn569190458.ovpn",
-          "host": "60.42.49.51",
-          "port": 1513,
+          "file": "ovpn/0074-JP-vpn334153435.ovpn",
+          "host": "118.87.121.178",
+          "port": 1217,
           "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "dbcc8873fbad9cfe",
-      "name": "vpn451832275",
-      "hostname": "vpn451832275",
-      "ip": "171.4.249.105",
-      "country": "Thailand",
-      "countryCode": "TH",
-      "score": 624470,
-      "pingMs": 13,
-      "speedMbps": 87.296,
-      "sessions": 41,
+      "id": "3edfd899713ff776",
+      "name": "vpn706822780",
+      "hostname": "vpn706822780",
+      "ip": "106.137.255.140",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 618297,
+      "pingMs": 7,
+      "speedMbps": 82.87,
+      "sessions": 0,
       "uptimeMinutes": 1000,
-      "totalUsers": 159119,
-      "totalTrafficBytes": 32014371699097,
-      "operator": "DESKTOP-0UD2AGA's owner",
+      "totalUsers": 687818,
+      "totalTrafficBytes": 32639999777787,
+      "operator": "FMV-PC's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "171.4.249.105",
-          "port": 1479,
+          "host": "106.137.255.140",
+          "port": 1527,
           "protocol": null
         }
       ],
-      "protocol": "udp",
+      "protocol": "tcp",
       "username": "vpn",
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0097-TH-vpn451832275.ovpn",
-          "host": "171.4.249.105",
-          "port": 1479,
-          "protocol": "udp"
+          "file": "ovpn/0075-JP-vpn706822780.ovpn",
+          "host": "106.137.255.140",
+          "port": 1527,
+          "protocol": "tcp"
         }
       ]
     },
     {
-      "id": "788796c61b24f565",
-      "name": "vpn537511968",
-      "hostname": "vpn537511968",
-      "ip": "133.32.133.240",
+      "id": "ffa0b4bc02248f7e",
+      "name": "vpn388646752",
+      "hostname": "vpn388646752",
+      "ip": "153.168.56.118",
       "country": "Japan",
       "countryCode": "JP",
-      "score": 619459,
-      "pingMs": 8,
-      "speedMbps": 117.122,
-      "sessions": 10,
+      "score": 616555,
+      "pingMs": 5,
+      "speedMbps": 540.592,
+      "sessions": 6,
       "uptimeMinutes": 1000,
-      "totalUsers": 135204,
-      "totalTrafficBytes": 10485898053077,
-      "operator": "fscivil02's owner",
+      "totalUsers": 6582,
+      "totalTrafficBytes": 795658201524,
+      "operator": "DESKTOP-47MH3T9's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "133.32.133.240",
-          "port": 7633,
+          "host": "153.168.56.118",
+          "port": 1224,
           "protocol": null
         }
       ],
-      "protocol": "udp",
+      "protocol": "tcp",
       "username": "vpn",
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0098-JP-vpn537511968.ovpn",
-          "host": "133.32.133.240",
-          "port": 7633,
-          "protocol": "udp"
+          "file": "ovpn/0076-JP-vpn388646752.ovpn",
+          "host": "153.168.56.118",
+          "port": 1224,
+          "protocol": "tcp"
         }
       ]
     },
@@ -3665,7 +2851,7 @@
       "ip": "103.186.154.212",
       "country": "Viet Nam",
       "countryCode": "VN",
-      "score": 613544,
+      "score": 615337,
       "pingMs": 41,
       "speedMbps": 55.778,
       "sessions": 1,
@@ -3688,7 +2874,7 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0099-VN-vpn128294131.ovpn",
+          "file": "ovpn/0077-VN-vpn128294131.ovpn",
           "host": "103.186.154.212",
           "port": 1957,
           "protocol": "tcp"
@@ -3696,64 +2882,27 @@
       ]
     },
     {
-      "id": "b2a736341b0774a8",
-      "name": "vpn729764028",
-      "hostname": "vpn729764028",
-      "ip": "182.8.193.6",
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "score": 610808,
-      "pingMs": 20,
-      "speedMbps": 85.489,
-      "sessions": 10,
-      "uptimeMinutes": 1000,
-      "totalUsers": 92932,
-      "totalTrafficBytes": 12601887807507,
-      "operator": "DastronPC's owner",
+      "id": "3c811bd0d759e296",
+      "name": "vpn676104036",
+      "hostname": "vpn676104036",
+      "ip": "49.142.112.146",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 615139,
+      "pingMs": 45,
+      "speedMbps": 35.731,
+      "sessions": 4,
+      "uptimeMinutes": 72220637,
+      "totalUsers": 58220,
+      "totalTrafficBytes": 4361079548449,
+      "operator": "DESKTOP-JI7L7VC's owner",
       "logType": "2weeks",
       "message": "",
       "source": "official-https",
       "remotes": [
         {
-          "host": "182.8.193.6",
-          "port": 6076,
-          "protocol": null
-        }
-      ],
-      "protocol": "udp",
-      "username": "vpn",
-      "password": "vpn",
-      "configs": [
-        {
-          "file": "ovpn/0100-ID-vpn729764028.ovpn",
-          "host": "182.8.193.6",
-          "port": 6076,
-          "protocol": "udp"
-        }
-      ]
-    },
-    {
-      "id": "ed6cd59564f8c2da",
-      "name": "vpn437736480",
-      "hostname": "vpn437736480",
-      "ip": "126.38.139.109",
-      "country": "Japan",
-      "countryCode": "JP",
-      "score": 608459,
-      "pingMs": 11,
-      "speedMbps": 263.432,
-      "sessions": 7,
-      "uptimeMinutes": 1000,
-      "totalUsers": 2751,
-      "totalTrafficBytes": 266516465775,
-      "operator": "Yama-Win10BC's owner",
-      "logType": "2weeks",
-      "message": "",
-      "source": "official-https",
-      "remotes": [
-        {
-          "host": "126.38.139.109",
-          "port": 1705,
+          "host": "49.142.112.146",
+          "port": 995,
           "protocol": null
         }
       ],
@@ -3762,9 +2911,601 @@
       "password": "vpn",
       "configs": [
         {
-          "file": "ovpn/0101-JP-vpn437736480.ovpn",
-          "host": "126.38.139.109",
-          "port": 1705,
+          "file": "ovpn/0078-KR-vpn676104036.ovpn",
+          "host": "49.142.112.146",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "c9e588e4041e5d66",
+      "name": "vpn847836439",
+      "hostname": "vpn847836439",
+      "ip": "94.190.38.152",
+      "country": "Russian Federation",
+      "countryCode": "RU",
+      "score": 613225,
+      "pingMs": 47,
+      "speedMbps": 88.059,
+      "sessions": 3,
+      "uptimeMinutes": 72220637,
+      "totalUsers": 11151,
+      "totalTrafficBytes": 623331902888,
+      "operator": "Serg's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "94.190.38.152",
+          "port": 1211,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0079-RU-vpn847836439.ovpn",
+          "host": "94.190.38.152",
+          "port": 1211,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "ab8e5ccd5878ff28",
+      "name": "vpn470183766",
+      "hostname": "vpn470183766",
+      "ip": "218.147.175.82",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 610331,
+      "pingMs": 27,
+      "speedMbps": 171.046,
+      "sessions": 2,
+      "uptimeMinutes": 72220637,
+      "totalUsers": 28039,
+      "totalTrafficBytes": 3099787534543,
+      "operator": "DESKTOP-KR88S5B's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "218.147.175.82",
+          "port": 1364,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0080-KR-vpn470183766.ovpn",
+          "host": "218.147.175.82",
+          "port": 1364,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "d30b46501be1414b",
+      "name": "vpn986495248",
+      "hostname": "vpn986495248",
+      "ip": "119.169.129.9",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 598436,
+      "pingMs": 20,
+      "speedMbps": 284.649,
+      "sessions": 4,
+      "uptimeMinutes": 1000,
+      "totalUsers": 14056,
+      "totalTrafficBytes": 969259334040,
+      "operator": "DESKTOP-0H77HSI's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "119.169.129.9",
+          "port": 1549,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0081-JP-vpn986495248.ovpn",
+          "host": "119.169.129.9",
+          "port": 1549,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "8356936ff68ba3c1",
+      "name": "vpn752167793",
+      "hostname": "vpn752167793",
+      "ip": "27.130.52.82",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "score": 592419,
+      "pingMs": 7,
+      "speedMbps": 394.072,
+      "sessions": 7,
+      "uptimeMinutes": 1000,
+      "totalUsers": 100462,
+      "totalTrafficBytes": 23548024876087,
+      "operator": "DESKTOP-PEB8L79's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "27.130.52.82",
+          "port": 33434,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0082-TH-vpn752167793.ovpn",
+          "host": "27.130.52.82",
+          "port": 33434,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "78f994edf60c8898",
+      "name": "vpn209052080",
+      "hostname": "vpn209052080",
+      "ip": "113.22.148.66",
+      "country": "Viet Nam",
+      "countryCode": "VN",
+      "score": 589035,
+      "pingMs": 29,
+      "speedMbps": 128.794,
+      "sessions": 22,
+      "uptimeMinutes": 1000,
+      "totalUsers": 190410,
+      "totalTrafficBytes": 35492904229622,
+      "operator": "DESKTOP-65J3RE9's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "113.22.148.66",
+          "port": 1576,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0083-VN-vpn209052080.ovpn",
+          "host": "113.22.148.66",
+          "port": 1576,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "9f3c00a2b4b26201",
+      "name": "vpn716869245",
+      "hostname": "vpn716869245",
+      "ip": "60.239.200.125",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 588898,
+      "pingMs": 5,
+      "speedMbps": 82.15,
+      "sessions": 7,
+      "uptimeMinutes": 1000,
+      "totalUsers": 16827,
+      "totalTrafficBytes": 1744542917347,
+      "operator": "kitajiman's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "60.239.200.125",
+          "port": 1346,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0084-JP-vpn716869245.ovpn",
+          "host": "60.239.200.125",
+          "port": 1346,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "17ca96b5f1ec2ed7",
+      "name": "vpn300065743",
+      "hostname": "vpn300065743",
+      "ip": "27.130.96.130",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "score": 583976,
+      "pingMs": 4,
+      "speedMbps": 411.071,
+      "sessions": 5,
+      "uptimeMinutes": 1000,
+      "totalUsers": 23518,
+      "totalTrafficBytes": 5496494239521,
+      "operator": "MSI's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "27.130.96.130",
+          "port": 1434,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0085-TH-vpn300065743.ovpn",
+          "host": "27.130.96.130",
+          "port": 1434,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "d57df9bb40da5f0e",
+      "name": "vpn576927482",
+      "hostname": "vpn576927482",
+      "ip": "121.175.175.84",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 579669,
+      "pingMs": 22,
+      "speedMbps": 184.485,
+      "sessions": 0,
+      "uptimeMinutes": 1000,
+      "totalUsers": 33665,
+      "totalTrafficBytes": 1078006303271,
+      "operator": "DESKTOP-N2TILTS's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "121.175.175.84",
+          "port": 1964,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0086-KR-vpn576927482.ovpn",
+          "host": "121.175.175.84",
+          "port": 1964,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "8152dfd8b74862e7",
+      "name": "vpn338735594",
+      "hostname": "vpn338735594",
+      "ip": "27.130.20.31",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "score": 577638,
+      "pingMs": 6,
+      "speedMbps": 297.416,
+      "sessions": 6,
+      "uptimeMinutes": 1000,
+      "totalUsers": 476,
+      "totalTrafficBytes": 121506025321,
+      "operator": "DESKTOP-PU31IOB's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "27.130.20.31",
+          "port": 1916,
+          "protocol": null
+        }
+      ],
+      "protocol": "udp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0087-TH-vpn338735594.ovpn",
+          "host": "27.130.20.31",
+          "port": 1916,
+          "protocol": "udp"
+        }
+      ]
+    },
+    {
+      "id": "af97d396181c9b8d",
+      "name": "vpn934896510",
+      "hostname": "vpn934896510",
+      "ip": "114.181.135.113",
+      "country": "Japan",
+      "countryCode": "JP",
+      "score": 576043,
+      "pingMs": 6,
+      "speedMbps": 17.565,
+      "sessions": 11,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 94590,
+      "totalTrafficBytes": 3637442631921,
+      "operator": "DESKTOP-M822NN3's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "114.181.135.113",
+          "port": 1909,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0088-JP-vpn934896510.ovpn",
+          "host": "114.181.135.113",
+          "port": 1909,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "bfc53afbc22ccad5",
+      "name": "vpn198210011",
+      "hostname": "vpn198210011",
+      "ip": "221.167.192.92",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 571612,
+      "pingMs": 31,
+      "speedMbps": 120.566,
+      "sessions": 6,
+      "uptimeMinutes": 1000,
+      "totalUsers": 695,
+      "totalTrafficBytes": 271605017434,
+      "operator": "DESKTOP-K5RDBMO's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "221.167.192.92",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0089-KR-vpn198210011.ovpn",
+          "host": "221.167.192.92",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "4573ad996494f932",
+      "name": "vpn662916899",
+      "hostname": "vpn662916899",
+      "ip": "61.82.192.215",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 570300,
+      "pingMs": 28,
+      "speedMbps": 690.573,
+      "sessions": 0,
+      "uptimeMinutes": 1000,
+      "totalUsers": 7537,
+      "totalTrafficBytes": 1645323927522,
+      "operator": "DESKTOP-OVIESMD's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "61.82.192.215",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0090-KR-vpn662916899.ovpn",
+          "host": "61.82.192.215",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "42517238bdcb84ba",
+      "name": "vpn934953221",
+      "hostname": "vpn934953221",
+      "ip": "218.209.121.129",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 567463,
+      "pingMs": 163,
+      "speedMbps": 31.175,
+      "sessions": 8,
+      "uptimeMinutes": 83423637,
+      "totalUsers": 7388,
+      "totalTrafficBytes": 305639590216,
+      "operator": "DESKTOP-350K91L's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "218.209.121.129",
+          "port": 1751,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0091-KR-vpn934953221.ovpn",
+          "host": "218.209.121.129",
+          "port": 1751,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "26be9c65e022c31f",
+      "name": "vpn712754006",
+      "hostname": "vpn712754006",
+      "ip": "121.137.150.188",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 562640,
+      "pingMs": 27,
+      "speedMbps": 273.063,
+      "sessions": 6,
+      "uptimeMinutes": 1000,
+      "totalUsers": 11753,
+      "totalTrafficBytes": 1544229855917,
+      "operator": "DESKTOP-59DA6H0's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "121.137.150.188",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0092-KR-vpn712754006.ovpn",
+          "host": "121.137.150.188",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "70907c462ba3551f",
+      "name": "vpn925722503",
+      "hostname": "vpn925722503",
+      "ip": "119.200.211.143",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 560924,
+      "pingMs": 29,
+      "speedMbps": 80.305,
+      "sessions": 2,
+      "uptimeMinutes": 1000,
+      "totalUsers": 71123,
+      "totalTrafficBytes": 4492968225767,
+      "operator": "DESKTOP-SIFETNL's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-https",
+      "remotes": [
+        {
+          "host": "119.200.211.143",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0093-KR-vpn925722503.ovpn",
+          "host": "119.200.211.143",
+          "port": 995,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    {
+      "id": "786ca2daa49aebc6",
+      "name": "vpn222226312",
+      "hostname": "vpn222226312",
+      "ip": "219.255.180.68",
+      "country": "Korea Republic of",
+      "countryCode": "KR",
+      "score": 548651,
+      "pingMs": 37,
+      "speedMbps": 268.942,
+      "sessions": 2,
+      "uptimeMinutes": 1000,
+      "totalUsers": 2831,
+      "totalTrafficBytes": 339674155791,
+      "operator": "DESKTOP-N7BM31I's owner",
+      "logType": "2weeks",
+      "message": "",
+      "source": "official-http",
+      "remotes": [
+        {
+          "host": "219.255.180.68",
+          "port": 995,
+          "protocol": null
+        }
+      ],
+      "protocol": "tcp",
+      "username": "vpn",
+      "password": "vpn",
+      "configs": [
+        {
+          "file": "ovpn/0094-KR-vpn222226312.ovpn",
+          "host": "219.255.180.68",
+          "port": 995,
           "protocol": "tcp"
         }
       ]
