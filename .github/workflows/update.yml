@@ -1,1 +1,239 @@
+name: Update VPN Servers
 
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Every 6 hours
+    - cron: "17 */6 * * *"
+
+  push:
+    paths:
+      - "scripts/update_servers.py"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vpn-server-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    name: Update VPN Gate Servers
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 15
+
+    steps:
+
+      # ======================================================
+      # CHECKOUT
+      # ======================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ======================================================
+      # PYTHON
+      # ======================================================
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # ======================================================
+      # RUN UPDATE
+      # ======================================================
+
+      - name: Update VPN servers
+        env:
+          VPN_FETCH_TIMEOUT: "30"
+          VPN_MAX_SERVERS: "0"
+          VPN_MIN_SCORE: "0"
+          VPN_MAX_PING: "0"
+        run: |
+          set -e
+
+          python scripts/update_servers.py
+
+      # ======================================================
+      # VERIFY JSON
+      # ======================================================
+
+      - name: Validate servers.json
+        run: |
+          set -e
+
+          test -f servers/servers.json
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("servers/servers.json")
+
+          data = json.loads(
+              path.read_text(
+                  encoding="utf-8"
+              )
+          )
+
+          assert isinstance(data, dict)
+          assert "schemaVersion" in data
+          assert "generatedAt" in data
+          assert "servers" in data
+          assert isinstance(
+              data["servers"],
+              list
+          )
+
+          print(
+              "JSON valid:",
+              len(data["servers"]),
+              "servers"
+          )
+          PY
+
+      # ======================================================
+      # VERIFY OVPN FILES
+      # ======================================================
+
+      - name: Validate OpenVPN files
+        run: |
+          set -e
+
+          test -d servers/ovpn
+
+          COUNT=$(find servers/ovpn \
+            -type f \
+            -name "*.ovpn" \
+            | wc -l)
+
+          echo "OVPN files: $COUNT"
+
+          if [ "$COUNT" -lt 1 ]; then
+            echo "ERROR: No OVPN files generated"
+            exit 1
+          fi
+
+          while IFS= read -r file; do
+
+            if [ ! -s "$file" ]; then
+              echo "ERROR: Empty OVPN file: $file"
+              exit 1
+            fi
+
+            if ! grep -qiE \
+              '(^|[[:space:]])client([[:space:]]|$)' \
+              "$file"; then
+
+              echo "ERROR: Invalid OVPN file: $file"
+              exit 1
+            fi
+
+            if ! grep -qiE \
+              '(^|[[:space:]])remote([[:space:]]|$)' \
+              "$file"; then
+
+              echo "ERROR: No remote directive: $file"
+              exit 1
+            fi
+
+          done < <(
+            find servers/ovpn \
+              -type f \
+              -name "*.ovpn"
+          )
+
+          echo "All OVPN files passed validation."
+
+      # ======================================================
+      # CHECK SERVER COUNT
+      # ======================================================
+
+      - name: Print update summary
+        run: |
+          echo "=========================================="
+          echo "VPN SERVER UPDATE SUMMARY"
+          echo "=========================================="
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(
+              Path(
+                  "servers/servers.json"
+              ).read_text(
+                  encoding="utf-8"
+              )
+          )
+
+          servers = data["servers"]
+
+          print(
+              "Generated:",
+              data["generatedAt"]
+          )
+
+          print(
+              "Servers:",
+              len(servers)
+          )
+
+          for server in servers[:10]:
+
+              print(
+                  f"{server.get('countryCode', '??'):>3} "
+                  f"{server.get('hostname', ''):<35} "
+                  f"score={server.get('score', 0)} "
+                  f"ping={server.get('pingMs')}"
+              )
+          PY
+
+          echo "=========================================="
+
+      # ======================================================
+      # GIT STATUS
+      # ======================================================
+
+      - name: Check changes
+        id: changes
+        run: |
+          git add servers/ scripts/
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected."
+          fi
+
+      # ======================================================
+      # COMMIT
+      # ======================================================
+
+      - name: Commit updated servers
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit \
+            -m "chore: update VPN Gate servers"
+
+      # ======================================================
+      # PUSH
+      # ======================================================
+
+      - name: Push update
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git push
