@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Every 6 hours
     - cron: "17 */6 * * *"
 
   push:
@@ -28,27 +27,25 @@ jobs:
 
     steps:
 
-      # ======================================================
-      # CHECKOUT
-      # ======================================================
+      # ------------------------------------------------------
+      # Checkout
+      # ------------------------------------------------------
 
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # ======================================================
-      # PYTHON
-      # ======================================================
+      # ------------------------------------------------------
+      # Python
+      # ------------------------------------------------------
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      # ======================================================
-      # RUN UPDATE
-      # ======================================================
+      # ------------------------------------------------------
+      # Update
+      # ------------------------------------------------------
 
       - name: Update VPN servers
         env:
@@ -59,54 +56,271 @@ jobs:
         run: |
           set -e
 
+          echo "========================================"
+          echo "RUNNING VPN SERVER UPDATER"
+          echo "========================================"
+
+          python --version
+
           python scripts/update_servers.py
 
-      # ======================================================
-      # VERIFY JSON
-      # ======================================================
+          echo ""
+          echo "Updater finished."
 
-      - name: Validate servers.json
+      # ------------------------------------------------------
+      # Verify JSON exists
+      # ------------------------------------------------------
+
+      - name: Verify servers.json
         run: |
           set -e
 
-          test -f servers/servers.json
+          FILE="servers/servers.json"
 
+          echo "Checking: $FILE"
+
+          if [ ! -f "$FILE" ]; then
+            echo "ERROR: servers.json does not exist."
+            exit 1
+          fi
+
+          if [ ! -s "$FILE" ]; then
+            echo "ERROR: servers.json is empty."
+            exit 1
+          fi
+
+          echo ""
+          echo "First 10 lines:"
+          sed -n '1,10p' "$FILE"
+
+          echo ""
+          echo "File size:"
+          wc -c "$FILE"
+
+      # ------------------------------------------------------
+      # Validate JSON
+      # ------------------------------------------------------
+
+      - name: Validate JSON
+        run: |
+          set -e
+
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          path = Path("servers/servers.json")
+
+          print("Validating:", path)
+
+          try:
+              with path.open(
+                  "r",
+                  encoding="utf-8-sig"
+              ) as f:
+                  data = json.load(f)
+
+          except Exception as exc:
+
+              print("")
+              print("========================================")
+              print("JSON VALIDATION FAILED")
+              print("========================================")
+              print("Error:", repr(exc))
+              print("")
+
+              print("Raw beginning of file:")
+              print("----------------------------------------")
+
+              raw = path.read_bytes()
+
+              print(
+                  raw[:1000].decode(
+                      "utf-8",
+                      errors="replace"
+                  )
+              )
+
+              print("----------------------------------------")
+
+              sys.exit(1)
+
+          if not isinstance(data, dict):
+              print("ERROR: Root JSON must be an object.")
+              sys.exit(1)
+
+          if "schemaVersion" not in data:
+              print("ERROR: Missing schemaVersion.")
+              sys.exit(1)
+
+          if "generatedAt" not in data:
+              print("ERROR: Missing generatedAt.")
+              sys.exit(1)
+
+          if "servers" not in data:
+              print("ERROR: Missing servers.")
+              sys.exit(1)
+
+          if not isinstance(data["servers"], list):
+              print("ERROR: servers must be an array.")
+              sys.exit(1)
+
+          print("")
+          print("JSON validation successful.")
+          print("Schema:", data["schemaVersion"])
+          print("Generated:", data["generatedAt"])
+          print("Servers:", len(data["servers"]))
+          PY
+
+      # ------------------------------------------------------
+      # Validate OVPN
+      # ------------------------------------------------------
+
+      - name: Validate OpenVPN files
+        run: |
+          set -e
+
+          if [ ! -d "servers/ovpn" ]; then
+            echo "ERROR: servers/ovpn does not exist."
+            exit 1
+          fi
+
+          COUNT=$(find servers/ovpn \
+            -type f \
+            -name "*.ovpn" \
+            | wc -l)
+
+          echo "OVPN files: $COUNT"
+
+          if [ "$COUNT" -eq 0 ]; then
+            echo "ERROR: No OVPN files generated."
+            exit 1
+          fi
+
+          FAILED=0
+
+          while IFS= read -r file; do
+
+            echo "Checking: $file"
+
+            if [ ! -s "$file" ]; then
+              echo "ERROR: Empty file: $file"
+              FAILED=1
+              continue
+            fi
+
+            if ! grep -qiE \
+              '(^|[[:space:]])client([[:space:]]|$)' \
+              "$file"; then
+
+              echo "ERROR: Missing client directive: $file"
+              FAILED=1
+            fi
+
+            if ! grep -qiE \
+              '(^|[[:space:]])remote([[:space:]]|$)' \
+              "$file"; then
+
+              echo "ERROR: Missing remote directive: $file"
+              FAILED=1
+            fi
+
+          done < <(
+            find servers/ovpn \
+              -type f \
+              -name "*.ovpn"
+          )
+
+          if [ "$FAILED" -ne 0 ]; then
+            echo "OVPN validation failed."
+            exit 1
+          fi
+
+          echo ""
+          echo "All OVPN files are valid."
+
+      # ------------------------------------------------------
+      # Summary
+      # ------------------------------------------------------
+
+      - name: Update summary
+        run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
           path = Path("servers/servers.json")
 
-          data = json.loads(
-              path.read_text(
-                  encoding="utf-8"
+          with path.open(
+              "r",
+              encoding="utf-8-sig"
+          ) as f:
+              data = json.load(f)
+
+          servers = data["servers"]
+
+          print("")
+          print("========================================")
+          print("VPN SERVER UPDATE SUMMARY")
+          print("========================================")
+          print("Generated:", data["generatedAt"])
+          print("Servers:", len(servers))
+
+          print("")
+          print("Top 10:")
+
+          for server in servers[:10]:
+
+              print(
+                  f"{server.get('countryCode', '??'):>3} | "
+                  f"{server.get('hostname', ''):<35} | "
+                  f"score={server.get('score', 0)} | "
+                  f"ping={server.get('pingMs')}"
               )
-          )
 
-          assert isinstance(data, dict)
-          assert "schemaVersion" in data
-          assert "generatedAt" in data
-          assert "servers" in data
-          assert isinstance(
-              data["servers"],
-              list
-          )
-
-          print(
-              "JSON valid:",
-              len(data["servers"]),
-              "servers"
-          )
+          print("========================================")
           PY
 
-      # ======================================================
-      # VERIFY OVPN FILES
-      # ======================================================
+      # ------------------------------------------------------
+      # Git
+      # ------------------------------------------------------
 
-      - name: Validate OpenVPN files
+      - name: Check changes
+        id: changes
         run: |
-          set -e
+          git add servers/ scripts/
 
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected."
+          fi
+
+      # ------------------------------------------------------
+      # Commit
+      # ------------------------------------------------------
+
+      - name: Commit updated servers
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit \
+            -m "chore: update VPN Gate servers"
+
+      # ------------------------------------------------------
+      # Push
+      # ------------------------------------------------------
+
+      - name: Push update
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git push
           test -d servers/ovpn
 
           COUNT=$(find servers/ovpn \
